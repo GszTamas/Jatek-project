@@ -1,0 +1,37 @@
+100.
+A szörnyeteg holtan hever előtted. Nyáladzó pofájának tartalmát gyorsan magába szívja a poros talaj. Karmai színárnyak; egyesével letéped őket a hatalmas mancsról, majd zsebre vágod őket. Ezután leemeled a kulcsot a szegről, kinyitod az ajtót és távozol. Lapozz 30-ra.
+
+101.
+A sár felszíne domborodni kezd, és tompa pukkanás kiséretében egy óriási gázbuborék emelkedik ki belőle. Ahogy a felszín kisimulna. apró, zöld színű cikázó fények jelennek meg rajta. A foltocskák kiemelkednek, aljukból csápok nőnek ki, melyek percről percre hosszabodnak. Végül egy iszapsárákány óriási feje bukkan elő a félig nyálkás folyadék mélyéből! Most már látod, hogy a zöld fények amiket láttál valójában a lény fejéből kinivő csápok melyek egészen addig szabadon lengeni látstzanak míg hirtelen mindegyik rád nem szegetődik. A hatalmas száj kinyílik, förtelmes szagú gáz tör elő belőle ezután ellenfeled duzzadni kezd, ahogy levegővel szívja meg magát. Egyre csak nő és nő míg végül, míg végül kezded úgy érezni hogy, hogy teljesen betölti a termet. Meg kell küzdened vele. Előhúzod kardodat, mely hirtelen elégtelennel tűnik ellenfeleddel szemben.
+Iszapsárkány 	ügyesség 10	életerő 6
+Ha győzöl, lapozz a 82-re.
+
+102.
+Miután felhajtod az üvegcsében lévő italt, megdöbbenve tapasztolod, mennyivel jobban érzed most magad. Az üvegben a Szerencse italának egy adagja volt. Növeld meg 1-el Kezdeti SZERENCSÉDET, majd állítsd vissza jelenlegi pontjaidat erre az új értékre. Folytatod a kúszást észak felé. Lapozz a 169-re.
+
+103.
+Bár a víz mély és elég gyors folyású, van annyi erő benned, hogy folyásirányba úszva jóval lentebb kievickélj a partra. Miután kifújtad magad, visszatérsz a hídhoz és folytatod utad az ösvényen. Lapozz a 76-ra.
+
+104.
+A kék könyv térképet tartalmaz, és bár minden nevet Elfül írtak bele, a képen felismered Analandot. úgy tűnik, ez a mű tartalmazza azon városok, falvak, és ami még fontosabb, bányák helyzetét, melyekben drágakövet vagy nemesfémet találhatsz. Ha sikerülne magaddal vinned ezt a kötetet a felszínre futármunkád sokkal jövedelmezőbbé válhatna. Biztonságba helyezed hát kabátod egyik belső zsebébe. mielőtt elhagynád a termet, még belenézhetsz a piros - Lapozz az 59-re - vagy a zöld - Lapozz a 88-ra - könyvbe- Ha inkább egyszerűen távoznál az éjaszaki ajtón át, lapozz a 10-re.
+
+105.
+Döbbenten veszed észre, hogy köpenyed felfúvódik és felemel a lábadról. Lassan le- begsz le a talajra, és könnyedén érsz földet. Alig mered elhinni, mekkora szerencséd van. Lapozz a 27-re.
+
+106.
+A járat továbbra is északnak tart, de hamarosan egy leágazást találsz, mely keletre tér le. Ha erre mennél tovább, lapozz a 179-re. Ha egyenesen folytatnád az utad, lapozz a 153-ra.
+
+107.
+Mivel az ajtó túloldaláról hangokat hallas: átszűrődni, óvatosan nyitsz be. Ahogy ben kukucskálsz a túloldalon, két csevegő Orko veszel észre. Remélve, hogy nem fogos érdekelni őket, megpróbálsz elsétálni mel lettük, ám mikor észrevesznek, mindketter kardot húznak elő. Egyesével kell megküz dened velük.
+Első Ork
+ÜGYESSÉG 5 ÉLETERŐ 6
+Második Ork
+ÜGYESSÉG 6 ÉLETERŐ 5
+
+Ha legyőzöd ellenfeleidet, lapozz a 198-ra.
+
+108.
+Északi irányba követed az átjárót. Hamaro san elérsz egy keleti leágazáshoz. Hogyha egyenesen mész tovább, lapozz a 146-ra. Ha etérsz jobbra, lapozz a 79-re.
+
+109.
+Elhátrálsz a férgek elől, míg kinyújtot kezeiddel meg nem érzed az északi falat Megfordulsz és próbálsz valamilyen láb tartót keresni a padló szintje fölött. Egy kes keny szegély fut végig nagyjából fél méter magasan. Kapaszkodót keresve végül meg markolsz egy kiálló ködarabot és fellépsz Majdnem elveszted a fogódzkodódat, miko a falszakasz, amin kapaszkodsz, befordul é téged is kimenekít szorult helyzetedből. A szobán kívül találod magad, egy észak fele haladó folyosón. Megkönnyebbülten fellé legzel, lelépsz a falról és elöre indulsz. Egy elágazáshoz érkezel, melyen szintén egyen nesen haladsz tovább. Lapozz a 195-re.
