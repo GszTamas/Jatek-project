@@ -21,6 +21,49 @@ def szerencseproba():
         Jatekos.minuszluck()
         return False
 
+def igenvagynem():
+    while True:
+        inp = input("igen vagy nem")
+        if inp == "igen":
+            return True
+        elif inp == "nem":
+            return False
+
+def harc(name, hp, ugyesseg):
+    while hp>0 or Jatekos.HP>0:
+        EllensegAttackSTR = duplakockadobas() + ugyesseg #1.lépés
+        JatekosAttackSTR = duplakockadobas() + Jatekos.Skill #2.lépés
+
+        if EllensegAttackSTR<JatekosAttackSTR:
+            hp-2
+            print("Megsebezted az ellenfelet!")
+            print("Akarsz Szerencsét próbálni?")
+            if not igenvagynem():
+                print("Nem probáltál szerencsét!")
+            else:
+                if szerencseproba():
+                    print("Súlyos sebzést ejtettél!")
+                    hp-2
+                else:
+                    print("A seb puszta karcolás!")
+                    hp+1
+        elif EllensegAttackSTR>JatekosAttackSTR:
+            Jatekos.HP = Jatekos.HP-2
+            print("Az ellenfél megsebzett téged!")
+            print("Akarsz Szerencsét próbálni?")
+            if not igenvagynem():
+                print("Nem probáltál szerencsét!")
+            else:
+                if szerencseproba():
+                    print("Súlyos sebzést Kaptál!")
+                    Jatekos.HP = Jatekos.HP-2
+                else:
+                    print("A seb puszta karcolás!")
+                    Jatekos.HP = Jatekos.HP+1
+        else:
+            print("Kivédtétek egymás ütését!")
+        print(f"{name} Életereje: {hp}")
+        print(f"Játékos Életereje: {Jatekos.HP}")
 
 def igenvagynem():
     print("igen vagy nem?")
