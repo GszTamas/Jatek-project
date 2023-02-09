@@ -13,8 +13,13 @@ def duplakockadobas():
 
 
 def szerencseproba():
-    if duplakockadobas():
-        print("a")
+    if duplakockadobas() <= Jatekos.Luck:
+        Jatekos.Luck = Jatekos.Luck - 1
+        return True
+    else:
+        Jatekos.Luck = Jatekos.Luck - 1
+        return False
+
 
 # HP Luck Skill Gold
-Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)
+Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)
