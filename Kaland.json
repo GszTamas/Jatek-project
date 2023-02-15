@@ -1,5 +1,13 @@
 {
   "kaland": {
 
+    "cards": {
+      "1": {
+       "szoveg": [""],
+        "akcio": {},
+        "ugras": [""]
+      }
+
+    }
   }
 }

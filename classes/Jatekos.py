@@ -8,3 +8,7 @@ class Jatekos:
         self.Crystals = Crystals
         self.Potions = Potions
         self.Food = Food
+
+    def tortenetkezdes(self):
+        self.Items.append("Kard")
+        self.Items.append("Bőrvért")
