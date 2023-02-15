@@ -1,5 +1,5 @@
 class Jatekos:
-    def __init__(self, HP, Luck, Skill, Gold, Items = [], Crystals = [], Potions = [], Food = []):
+    def __init__(self, HP, Luck, Skill, Gold, Items=[], Crystals=[], Potions=[], Food=[]):
         self.HP = HP
         self.Luck = Luck
         self.Skill = Skill
@@ -12,3 +12,12 @@ class Jatekos:
     def tortenetkezdes(self):
         self.Items.append("Kard")
         self.Items.append("Bőrvért")
+
+    def minuszluck(self):
+        self.Luck = self.Luck - 1
+
+    def jatekosSebzes(self, szam):
+        self.HP = self.HP - szam
+
+    def jatekosHeal(self, szam):
+        self.HP = self.HP + szam
