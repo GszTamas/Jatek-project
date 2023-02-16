@@ -1,6 +1,7 @@
 import json
 import random
 
+from classes.Ellenfel import Ellenfel
 from classes.Jatekos import Jatekos
 
 
@@ -33,13 +34,13 @@ def igenvagynem():
             print("Hibás bemenet")
 
 
-def harc(name, hp, ugyesseg):
-    while hp > 0 or Jatekos.HP > 0:
-        EllensegAttackSTR = duplakockadobas() + ugyesseg  # 1.lépés
+def harc():
+    while True:
+        EllensegAttackSTR = duplakockadobas() + Ellenfel.ugyesseg  # 1.lépés
         JatekosAttackSTR = duplakockadobas() + Jatekos.Skill  # 2.lépés
 
         if EllensegAttackSTR < JatekosAttackSTR:
-            hp - 2
+            Ellenfel.hpmod(-2)
             print("Megsebezted az ellenfelet!")
             print("Akarsz Szerencsét próbálni?")
             if not igenvagynem():
@@ -47,10 +48,10 @@ def harc(name, hp, ugyesseg):
             else:
                 if szerencseproba():
                     print("Súlyos sebzést ejtettél!")
-                    hp - 2
+                    Ellenfel.hpmod(-2)
                 else:
                     print("A seb puszta karcolás!")
-                    hp + 1
+                    Ellenfel.hpmod(+1)
         elif EllensegAttackSTR > JatekosAttackSTR:
             Jatekos.jatekosSebzes(2)
             print("Az ellenfél megsebzett téged!")
@@ -66,9 +67,43 @@ def harc(name, hp, ugyesseg):
                     Jatekos.jatekosHeal(1)
         else:
             print("Kivédtétek egymás ütését!")
-        print(f"{name} Életereje: {hp}")
+        print(f"{Ellenfel.name} Életereje: {Ellenfel.HP}")
         print(f"Játékos Életereje: {Jatekos.HP}")
+        if Jatekos.HP < 1:
+            print("nem nyertel")
+            return False
+        elif Ellenfel.HP < 1:
+            print("nyertel")
+            return True
+
+Nyert = False
+
+input("új játék inditásához gépeljen be bármit: ")
+Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20) # HP Luck Skill Gold
+
+with open("Kaland.json", "r", encoding="utf-8") as jsn:
+    advDict = json.load(jsn)
+
+if advDict['kaland'][Jatekos.lokacio]['akcio'] == "tortenetkezdes":
+    Jatekos.tortenetkezdes()
 
 
-# HP Luck Skill Gold
-Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)
+print(Jatekos)
+while not Nyert:
+    print(advDict['kaland'][Jatekos.lokacio]['szoveg'])
+    print(Jatekos.lokacio())
+
+    if len(advDict['kaland'][Jatekos.lokacio]['ugras']) == 1:
+        input("folytatáshoz gépeljen be bármit: ")
+        Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][0])
+
+    elif len(advDict['kaland'][Jatekos.lokacio]['ugras']) > 1:
+        print("Merre szeretne haladni?")
+        while True:
+            inp = input()
+            if inp in advDict['kaland'][Jatekos.lokacio]['ugras']:
+                Jatekos.lokaciovaltoztatas(inp)
+                break
+
+    if advDict['kaland'][Jatekos.lokacio]['akcio'] == "gyozelem":
+        Nyert = True
