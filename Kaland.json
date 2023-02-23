@@ -432,14 +432,14 @@
       "ugras": [89]
     },
     "81": {
-      "szoveg": "",
-      "akcio": [],
+      "szoveg": "Olyan csendben lopakodsz előre, amennyire csak tudsz, ám kardod véletlenül nekicsa- pódik a kőnek, és éles, csengő hangot ad ki. Tedd próbára SZERENCSED! Ha szerencsés vagy, lapozz a 97-re. Ha nincs szerencséd, lapozz a 138-ra.",
+      "akcio": ["szerencseproba"],
       "ugras": []
     },
     "82": {
-      "szoveg": "",
+      "szoveg": "Sikerül levágnod az Iszapsárkány fejét, mely előtted hever, elzárva az utat a keskeny párkányon. Nem mered kézzel ellökni, mert a fején lévő nyúlványok még mindig azzal a furcsa, zöld színnel izzanak, amit korábban is láttál. Ennélfogva kardodat emelőként aládugva megemeled egy kicsit, hogy legurítsd a szegélyről. Belecsobban a sárba, ahol végső haláltusájában ismét püffedni kezd. Gyorsan elsietsz mellette, még mielőtt megint elzárná az utat, de már csak leeresztésének sípolását hallod, amint végleg távozik az élők sorából. Lapozz az 52-re.",
       "akcio": [],
-      "ugras": []
+      "ugras": [52]
     },
     "83": {
       "szoveg": "",
