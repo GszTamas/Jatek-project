@@ -66,6 +66,7 @@
       "akcio": ["pluszlebeges", "gyuruproba"],
       "ugras": [71, 80]
     },
+<<<<<<< HEAD
     "13": {
       "szoveg": "A zárba helyezed a kulcsot, de az sajnos nem illik bele, így nincs más választásod minthogy megpróbáld betörni. Lapozz a 196-ra",
       "akcio": [],
@@ -272,14 +273,24 @@
     },
     "51": {
       "szoveg": "Egy kis helyiségbe nyitsz be, mely első ránézésre nem tartalmaz semmi mást, csak nagy halom törmeléket a padlón. Ahogy beljebb lépsz, kellemetlen szag csapja meg az orrodat, és egy éles, magas és - amennyire meg tudod állapítani - dühödt visítás kezd egyre erősödni. Végül egy rikoltás kiséretében két hatalmas Denevér ereszti el a plafont a szoba két sarkában, és feléd kezdenek repülni. Ahogy ösztönösen lebuksz, sikerül észrevenned a lények vicsorgó agyarait, melyek készek szétcincálni a torkodat. Ha gyorsan kihátrálsz, majd becsapod magad mögött a bejárati ajtót, lapozz a 80-ra. Hogyha megveted a lábad és megküzdesz ezekkel a szörnyű teremtményekkel, lapozz a 140-re.",
+=======
+    "": {
+      "szoveg": "",
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "akcio": [],
       "ugras": [80, 140]
     },
+<<<<<<< HEAD
     "52": {
       "szoveg": "52.A járat élesen keletre fordul, és végül egy ajtóba torkollik. Lapozz a 45-re.",
+=======
+    "": {
+      "szoveg": "",
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "akcio": [],
       "ugras": [45]
     },
+<<<<<<< HEAD
     "53": {
       "szoveg": "A part teljesen kihaltnak tűnik, te pedig eléggé óvatlanul járkálsz, így a homokban bujkáló apró, bíbor rák minden gond nélkül csíp bele a lábadba. Vesztesz 2 ÉLETERO pontot. A három ajtó bármelyiken át távoz- hatsz. Ha az északi ajtón át távoznál, lapozz a 87-re. Ha a nyugatin lépnél be, lapozz a 6-ra. Ha a keletivel próbálnál szerencsét, lapozz a 111-re.",
       "akcio": ["eleterovesztes"],
@@ -432,36 +443,173 @@
       "ugras": [89]
     },
     "81": {
+=======
+    "": {
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+<<<<<<< HEAD
     "82": {
+=======
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+<<<<<<< HEAD
     "83": {
+=======
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+<<<<<<< HEAD
     "84": {
+=======
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+<<<<<<< HEAD
     "85": {
+=======
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+<<<<<<< HEAD
     "86": {
+=======
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
     },
+<<<<<<< HEAD
     "87": {
+=======
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "": {
+>>>>>>> 3ba6ec2e84099ce309231d53e43539b2b1673cc0
       "szoveg": "",
       "akcio": [],
       "ugras": []
