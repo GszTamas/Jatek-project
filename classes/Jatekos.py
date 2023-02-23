@@ -22,8 +22,8 @@ class Jatekos:
         self.Items.append("Kard")
         self.Items.append("Bőrvért")
 
-    def minuszluck(self):
-        self.Luck = self.Luck - 1
+    def minuszluck(self, ertek):
+        self.Luck = self.Luck - ertek
 
     def jatekosSebzes(self, szam):
         self.HP = self.HP - szam
@@ -33,6 +33,15 @@ class Jatekos:
 
     def lokaciovaltoztatas(self, szoba):
         self.lokacio = szoba
+
+    def gameover(self):
+        self.HP = 0
+        self.Items.clear()
+        self.Potions.clear()
+        self.Crystals.clear()
+
+    def pluszitem(self, inp):
+        self.Items.append(inp)
 
     def __repr__(self):
         print(f'Életerőd: {self.HP}\nSzerencséd: {self.Luck}\nÜgyeséged: {self.Skill}\nHelyzeted: {int(self.lokacio)}\nPénzed: {self.Gold}\nTárgyaid: {self.Items}\nKristályaid: {self.Crystals}\nItalaid: {self.Potions}\nÉteleid: {self.Food}')
