@@ -55,6 +55,7 @@ def harc(csatamod, name, hp, skill):
             print("Megsebezted az ellenfelet!")
             if Jatekos.HP < 1:
                 print("nem nyertel")
+                Jatekos.gameover()
                 return False
             elif hp < 1:
                 print("nyertel")
@@ -74,6 +75,7 @@ def harc(csatamod, name, hp, skill):
             print("Az ellenfél megsebzett téged!")
             if Jatekos.HP < 1:
                 print("nem nyertel")
+                Jatekos.gameover()
                 return False
             elif hp < 1:
                 print("nyertel")
@@ -133,10 +135,17 @@ while not Nyert:
         Jatekos.JatekosBlessing()
     if "combatblessing" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.JatekosCombatBlessing()
+    if "kezdetiszerencsenoveles" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.kezdetiszerencsenoveles(advDict['kaland'][Jatekos.lokacio]['ertek'])
+    if "szerencse+hpminusz" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.minuszluck(advDict['kaland'][Jatekos.lokacio]['ertek'][0])
+        Jatekos.jatekosSebzes(advDict['kaland'][Jatekos.lokacio]['ertek'][1])
 
     # tárgy felvételek
     if "pluszlebeges" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszitem("Lebegés Köpenye")
+    if "pluszgyuru" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.pluszitem("Ügyesség Gyürüje")
 
     if "+penz" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszcrystal(advDict['kaland'][Jatekos.lokacio]['mennyiseg'])
@@ -146,6 +155,11 @@ while not Nyert:
     # harc
     if "csatamod" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         csatamod = advDict['kaland'][Jatekos.lokacio]['ertek']
+
+    if "onharc" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        if advDict['kaland'][Jatekos.lokacio]['ellenfelek'] == 1:
+            harc(csatamod, "te", Jatekos.HP, Jatekos.Skill)
+            csatamod = 0
 
     if "harc" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         if advDict['kaland'][Jatekos.lokacio]['ellenfelek'] == 1:
@@ -172,12 +186,14 @@ while not Nyert:
                     harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel3']['nev'],
                          advDict['kaland'][Jatekos.lokacio]['ellenfel3']['HP'],
                          advDict['kaland'][Jatekos.lokacio]['ellenfel3']['ugyesseg'])
+    if Jatekos.halott:
+        break
 
     # győzelem vagy gameover detektálás
     if advDict['kaland'][Jatekos.lokacio]['akcio'] == "gyozelem":
         Nyert = True
         break
-    elif advDict['kaland'][Jatekos.lokacio]['akcio'] == "gameoever":
+    elif advDict['kaland'][Jatekos.lokacio]['akcio'] == "gameover":
         Nyert = False
         Jatekos.gameover()
         break
