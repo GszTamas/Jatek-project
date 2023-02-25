@@ -1,5 +1,5 @@
 class Jatekos:
-    def __init__(self, HP, Luck, Skill, Gold, Items=None, Crystals=None, Potions=None, Food=None, lokacio = "0", blessed = False, combatblessed = False, Halott = False):
+    def __init__(self, HP, Luck, Skill, Gold, Items=None, Crystals=None, Potions=None, Food=None, lokacio = "0", blessed = False, combatblessed = False, Halott = False, Elixir = False):
         if Food is None:
             Food = []
         if Potions is None:
@@ -23,6 +23,7 @@ class Jatekos:
         self.blessed = blessed
         self.combatblessed = combatblessed
         self.halott = Halott
+        self.Elixir = Elixir
 
     def tortenetkezdes(self):
         self.Items.append("Kard")
@@ -75,6 +76,9 @@ class Jatekos:
         self.blessed = True
     def JatekosCombatBlessing(self):
         self.combatblessed = True
+
+    def SzerencseElixirf(self):
+        self.Elixir = True
 
     def lokaciostr(self):
         self.lokacio = str(self.lokacio)

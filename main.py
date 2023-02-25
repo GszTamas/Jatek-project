@@ -12,20 +12,19 @@ def duplakockadobas():
 
 
 def szerencseproba():
-    if duplakockadobas() <= Jatekos.Luck:
-        Jatekos.minuszluck(1)
-        return True
-    else:
-        Jatekos.minuszluck(1)
-        return False
-
-
-def igenvagynem():
-    while True:
-        inp = input("igen vagy nem")
-        if inp == "igen":
+    if Jatekos.Elixir:
+        if duplakockadobas()+1 <= Jatekos.Luck:
+            Jatekos.minuszluck(1)
             return True
-        elif inp == "nem":
+        else:
+            Jatekos.minuszluck(1)
+            return False
+    else:
+        if duplakockadobas() <= Jatekos.Luck:
+            Jatekos.minuszluck(1)
+            return True
+        else:
+            Jatekos.minuszluck(1)
             return False
 
 
@@ -140,12 +139,16 @@ while not Nyert:
     if "szerencse+hpminusz" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.minuszluck(advDict['kaland'][Jatekos.lokacio]['ertek'][0])
         Jatekos.jatekosSebzes(advDict['kaland'][Jatekos.lokacio]['ertek'][1])
+    if "elixir" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.SzerencseElixirf()
 
     # tárgy felvételek
     if "pluszlebeges" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszitem("Lebegés Köpenye")
     if "pluszgyuru" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszitem("Ügyesség Gyürüje")
+    if "pluszarany" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.pluszitem("Aranykulcs")
 
     if "+penz" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszcrystal(advDict['kaland'][Jatekos.lokacio]['mennyiseg'])
@@ -199,6 +202,13 @@ while not Nyert:
         break
 
     # lépések
+    if "rollllll" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        while True:
+            if kockadobas()>4:
+                LepettEMar = True
+                break
+            else:
+                Jatekos.jatekosSebzes(2)
     if "kisebbnagyonbb" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         if duplakockadobas() > Jatekos.Skill:
             Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][0])
