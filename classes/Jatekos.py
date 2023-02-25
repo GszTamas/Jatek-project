@@ -1,5 +1,5 @@
 class Jatekos:
-    def __init__(self, HP, Luck, Skill, Gold, Items=None, Crystals=None, Potions=None, Food=None, lokacio = "0"):
+    def __init__(self, HP, Luck, Skill, Gold, Items=None, Crystals=None, Potions=None, Food=None, lokacio = "0", blessed = False, combatblessed = False):
         if Food is None:
             Food = []
         if Potions is None:
@@ -17,22 +17,56 @@ class Jatekos:
         self.Potions = Potions
         self.Food = Food
         self.lokacio = lokacio
+        self.kezdetiHP = HP
+        self.kezdetiLuck = Luck
+        self.kezdetiSkill = Skill
+        self.blessed = blessed
+        self.combatblessed = combatblessed
 
     def tortenetkezdes(self):
         self.Items.append("Kard")
         self.Items.append("Bőrvért")
 
-    def minuszluck(self):
-        self.Luck = self.Luck - 1
+    def minuszluck(self, ertek):
+        if self.blessed:
+             if 6 > self.Luck - ertek:
+                 self.Luck = 6
+        else:
+            self.Luck = self.Luck - ertek
+
+    def pluszluck(self, ertek):
+        if self.Luck + ertek > self.kezdetiLuck:
+            self.Luck = self.kezdetiLuck
+        else:
+            self.Luck = self.Luck + ertek
 
     def jatekosSebzes(self, szam):
         self.HP = self.HP - szam
 
     def jatekosHeal(self, szam):
-        self.HP = self.HP + szam
+        if self.HP + szam > self.kezdetiHP:
+            self.HP = self.kezdetiHP
+        else:
+            self.HP = self.HP + szam
 
     def lokaciovaltoztatas(self, szoba):
         self.lokacio = szoba
 
+    def gameover(self):
+        self.HP = 0
+        self.Items.clear()
+        self.Potions.clear()
+        self.Crystals.clear()
+
+    def pluszitem(self, inp):
+        self.Items.append(inp)
+
+    def JatekosBlessing(self):
+        self.blessed = True
+    def JatekosCombatBlessing(self):
+        self.combatblessed = True
+
+    def lokaciostr(self):
+        self.lokacio = str(self.lokacio)
     def __repr__(self):
-        print(f'Életerőd: {self.HP}\nSzerencséd: {self.Luck}\nÜgyeséged: {self.Skill}\nHelyzeted: {int(self.lokacio)}\nPénzed: {self.Gold}\nTárgyaid: {self.Items}\nKristályaid: {self.Crystals}\nItalaid: {self.Potions}\nÉteleid: {self.Food}')
+        return f'Életerőd: {self.HP}\nSzerencséd: {self.Luck}\nÜgyeséged: {self.Skill}\nHelyzeted: {self.lokacio}\nPénzed: {self.Gold}\nTárgyaid: {self.Items}\nKristályaid: {self.Crystals}\nItalaid: {self.Potions}\nÉteleid: {self.Food}'

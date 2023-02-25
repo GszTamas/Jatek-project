@@ -28,7 +28,11 @@
     },
     "5": {
       "szoveg": " Az ajtó egy tágas terembe nyílik, melynek északi oldalán egy újabb kijárat van, egy lelógó kötél szomszédságában. Csapdának nem látod jelét, így áthaladsz a szobán és leveszed a kötelet. Lenyomod a kilincset, de így sem sikerül előrébb jutnod -alighanem zárva van. Ha van nálad egy Aranykulcs lapozz a 110-re. Hogyha nincs, úgy távozol a szobából és folytatod az utadat északi irányba -lapozz a 14-re",
-      "akcio": ["aranykulcs"],
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Aranykulcs",
+        "HaVan": 110
+      },
       "ugras": [114]
     },
     "6": {
@@ -62,7 +66,7 @@
       "ugras": [31, 38]
     },
     "12": {
-      "szoveg": "A válladra csapod a köpenyt, de legnagyobb meglepetésedre semmi nem történik. Mivel egy kicsit azért hűvös van, nem dobod le. Bár nem tudod, de ez a Lebegás Köpenye. Ha fel akarod próbálni a gyűrűt, és még nem tetted meg lapozz a 119-re. Amennyiben a folyadék még az üvegben van, és most felhajtanád, lapozz a 71-re. Ha bezárnád a csapóajtót és az ajtón kilépve észak felé távoznál, lapozz a 80-ra",
+      "szoveg": "A válladra csapod a köpenyt, de legnagyobb meglepetésedre semmi nem történik. Mivel egy kicsit azért hűvös van, nem dobod le. Bár nem tudod, de ez a Lebegés Köpenye. Ha fel akarod próbálni a gyűrűt, és még nem tetted meg lapozz a 119-re. Amennyiben a folyadék még az üvegben van, és most felhajtanád, lapozz a 71-re. Ha bezárnád a csapóajtót és az ajtón kilépve észak felé távoznál, lapozz a 80-ra",
       "akcio": ["pluszlebeges", "gyuruproba"],
       "ugras": [71, 80]
     },
@@ -94,7 +98,7 @@
     },
     "18": {
       "szoveg": "Amint belépsz a szobába, rémülten eszmélsz rá, hogy előbb alaposan szét kellett volna nézned a plafonon ugyanis egy hatalmas Pók kapaszkodik, ami minden szemével téged bámul. Négy ezüstszínű gubó lóg mellette, és összeszorul a szíved, mikor rájössz, hogy két ember, egy Törpe és egy Elf vna bgeléjük csavarva, akik leendő ellenfeled legutóbbi áldozatai voltak, és már csak arra várnak, hogy a bestia egy jót lakomázzon belőlük. A Pók némán a padlóra pottyan, csáprágói mohón feléd nyúlnak.  Óriáspók  Ügyesség 9 Eléterő 5  Ha végzel ezzel a teremtménnyel, lapozz a 94-re. Ha nem, hamarosan te is személyre szőtt selyemkabátot fogsz kapni.",
-      "akcio": [],
+      "akcio": ["harc"],
       "ugras": [94],
 
       "ellenfel": {
@@ -106,7 +110,7 @@
     "19": {
       "szoveg": "Igyekezeted, hogy szilárd talajra juss, hiábavalónak tűnik, ám teszel még egy utolsó, kétségbeesett próbálkozást: a kijárat felé veted magad. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 176-ra. Ha nincs, lapozz a 151-re",
       "akcio": ["szerencseproba"],
-      "siker": 176,
+      "HaVan": 176,
       "ugras": [151]
     },
     "20": {
@@ -196,13 +200,15 @@
     },
     "37": {
       "szoveg": "A törmelékek közt kutatva belerúgsz valami fémes dologba. Miután eltakarítottad a környékéről a szemetet, egy masszív csapóajtó körvonalai rajzolódnak ki előtted a padlóban. Nem tudod megállapítani, hogy túl rozsdás-e ahhoz, hogy fel lehessen nyitni, te mindenesetre próbálod. Tedd próbára SZERENCSED! Ha szerencsés vagy, lapoz a 199-re. Hogyha nincs szerencséd, lapozz a 130-ra.",
-      "akcio": ["szerencsepróba"],
-      "ugras": [199, 130]
+      "akcio": ["szerencseproba"],
+      "HaVan": 199,
+      "ugras": [130]
     },
     "38": {
       "szoveg": "Átkutatod a zsákutcát, remélem, hogy találsz valamit. Tedd próbára SZERENCSÉD! Hogyha szerencsés vagy, lapozz a 114-re. Ha nincs szerencséd, lapozz az 55-re.",
-      "akcio": ["szerencsepróba"],
-      "ugras": [114, 55]
+      "akcio": ["szerencseproba"],
+      "HaVan": 114,
+      "ugras": [55]
     },
     "39": {
       "szoveg": "A szobába belépve az eddig látott leg- civilizáltabb teremben találod magad. A falakat fa burkolólapok borítják, fáklyák helyett itt egy lágy fényt árasztó gömb biztosítja a világítást, mely a közepén álló asztal felett lebeg. E mellett egy férfi görnyedt alakját veszed észre. Miközben becsukod magad mögött az ajtót, az öregember felemelkedik, és üdvözlően feléd nyújtja mindkét karját. Hangja vékony és remegő, és csak ekkor jössz rá, mennyire vén is lehet. Megtaláltad a Szobrot? kérdezi tőled. Ha nálad van a tárgy, lapoz a 91-re. Ha nincs nálad, lapozz a 131-re. Ha nem bízol meg benne és rá akarsz támadni, lapozz a 77-re.",
@@ -211,8 +217,9 @@
     },
     "40": {
       "szoveg": "Miközben a termeszektől nyüzsgő építményen haladsz, a baljósan recseg-ropog a talpad alatt. Minden egyes lépéssel újabb darabjai esnek bele a vízbe. Végül már csak egyetlen kötél marad épen, ami az utolsó deszkadarabot tartja. Tedd próbára SZERENCSED! Ha szerencsés vagy, lapoz a 60-ra. Ha nem, lapozz a 75-re.",
-      "akcio": ["szerencsepróba"],
-      "ugras": [60, 75]
+      "akcio": ["szerencseproba"],
+      "HaVan": 60,
+      "ugras": [75]
     },
     "41": {
       "szoveg": "Az alagút, bár folyamatosan jobbra-balra kanyarog, mégis tartja az északi irányt, végül élesen oldalra kanyarodik, és ekkor majdnem belefut egy fekete köpenybe öltözött alakba. Tört tart a kezében, az arcán ülő tekintet rettegésről árulkodik! Rájössz, hogy nem te vagy az egyetlen, akit most próbára tesznek, és hogy mindketten ugyanazon Szobor után kutattok. A fickó rád veti magát észre, hogy mielőbb végezni akar veled. Harcolnod kell! Tolvaj",
@@ -262,7 +269,8 @@
     },
     "49": {
       "szoveg": "A növénykének valóban mágikus gyógyító tulajdonsága van, és még szerencsét is hoz. Nyersz 4 ÉLETERO pontot, SZERENCSE pontjaid pedig mostantól kezdve nem fognak 6 alá menni. Az északi ajtón át távozol. Lapozz a 152-re.",
-      "akcio": [],
+      "akcio": ["Eleteronyeres", "luckblessing"],
+      "ertek": 4,
       "ugras": [152]
     },
     "50": {
@@ -310,7 +318,8 @@
     "58": {
       "szoveg": "Ahogy belépsz a szobába, a padlónak azon része, melyre ráléptél, lezuhan. Tedd próbára SZERENCSED! Hogyha szerencsés vagy, lapozz a 176-ra. Ha nem, lapozz a 19-re.",
       "akcio": ["szerencseproba"],
-      "ugras": [179, 19]
+      "HaVan": 176,
+      "ugras": 19
     },
     "59": {
       "szoveg": "Felemeled a piros színű könyvet és átfutod a tartalmát, remélve, hogy találsz benne valami hasznosat, amit felhasználhatnál a labirintusból való kijutásra. A szöveg azonban sajnos ősi Elf nyelven íródott, így egyetlen rúnáját sem érted. Ha még nem tetted, most belenézhetsz a kék - lapozz a 104-re vagy a zöld - lapozz a 88-ra - könyvbe. Hogyha meguntad az olvasást és távoznál az északi ajtón át, lapozz a 10-re.",
@@ -325,7 +334,8 @@
     "61": {
       "szoveg": "A hatalmas Galon tetemét melynek madárszerű karmai még mindig megfeszülnek és elernyednek, mintha még holtukban is szét akarnának tépni téged megkerülve kiutat keresel a helyiségből. E közben szé- pen lassan az oszlás büze tölti be a levegőt. A Madárember teste felé fordulsz, és még éppen megpillantod, amint bőrszárnyai eltűnnek egy csapat vonagló lárva alatt. Néhány másodperccel később már csak a lerá gott csontok maradnak meg egykori ellenfeledből. Amint elfogy élelmük, a férgek feléd indulnak, te pedig ráébredsz, hogy halálos veszélyben vagy. Mivel a fura teremtmények közted és a bejárat között állnak, egy másik kiutat kell találnod. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 109-re. Hogyha nincs szerencséd, lapozz a 175-re.",
       "akcio": ["szerencseproba"],
-      "ugras": [109, 175]
+      "HaVan": 109,
+      "ugras": [175]
     },
     "62": {
       "szoveg": "Rájössz, hogy nincs rá mód, hogy lejuss innen, így visszatérsz az elágazáshoz. Lapozz a 95-re.",
@@ -341,7 +351,8 @@
     "64": {
       "szoveg": "Ahogy leugrasz, hátizsákod beleakad vala- mibe, te pedig egy pillanatra elveszted az egyensúlyod, épp mikor földet érsz. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 117-re. Hogyha nincs szerencséd, lapozz a 186-ra.",
       "akcio": ["szerencseproba"],
-      "ugras": [117, 186]
+      "HaVan": 117,
+      "ugras": [186]
     },
     "65": {
       "szoveg": "Az ajtó egy nyirkos folyosóra vezet, mely először kelet felé fordul, végül pedig északra kanyarodik. Elindulsz. Lapozz a 84-re.",
@@ -352,7 +363,7 @@
       "szoveg": "Egy lépcsősorhoz érsz, és már épp lefelé indulnál rajtuk, mikor a hátad mögött valami zaj veszélyre figyelmeztet. Megperdülsz, és egy alacsony, köpcös alakot pillantasz meg. Ocsmány arca undok vigyorra húzódik. Háta mögül elökap egy tüskés buzogányt, majd a hírhedt Sikító Szellemet is megszégyenítő csataüvöltéssel megpörgeti, és a karodba vágja. Vesztesz. 1 ÉLETERO pontot. Meg kell küzdened vele.",
       "akcio": ["eleterovesztes", "harc"],
       "ertek": [1],
-      "ugras": [],
+      "ugras": [118],
 
       "ellenfel": {
         "nev": "Törpe",
@@ -362,8 +373,12 @@
     },
     "67": {
       "szoveg": "Az alagút hamarosan tágulni kezd és csodálatos látvány tárul a szemed elé. Egy földalatti völgyet határoló magas sziklafal kellős közepén, egy keskeny szirten találod magad. Nem látsz lefelé vezető utat, és nem mered megkockáztatni, hogy visszafordulj. Nálad van a Lebegés Köpenye? Ha igen, lapozz a 105-re. Ha nem, lapozz a 86-ra.",
-      "akcio": [],
-      "ugras": [105, 86]
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Lebegés Köpenye",
+        "HaVan": 105
+      },
+      "ugras": [86]
     },
     "68": {
       "szoveg": "Az alagút hamarosan jobbra fordul és egy ideig keletnek halad. Semmi akadályát nem látod annak, hogy te is ezt tedd. Lapozz a 137-re.",
@@ -382,8 +397,11 @@
     },
     "71": {
       "szoveg": "Ajkadhoz emeled a kis fiolát és megiszod a tartalmát. Meglepve tapasztalod, hogy a folyadék teljesen íztelen, de egészen felfrissít. Szentelt Víz volt benne, amit egy ősi Druida áldott meg. Az ezután következő harcok során 1-el megnövelheted majd Támadóerődet. Nyersz 1 SZERENCSE pontot. Ha még nem próbáltad fel, és most ujjadra húznád a gyürüt, lapozz a 119-re. Ha fel szeretnéd venni a köpenyt, és eddig még nem tetted, lapozz a 12-re. Ha távozol a helyiségből és észak felé folytatod az utad, lapozz a 80-ra.",
-      "akcio": [],
-      "ugras": [119, 12]
+      "akcio": ["szerencsenyeres", "gyuruproba", "kopeny", "combatblessing"],
+      "ertek": 1,
+      "haszeretne": 119,
+      "haszeretnekopenyt": 12,
+      "ugras": [80]
     },
     "72": {
       "szoveg": "Az ajtó egy újabb alagútba nyílik, mely kelet-nyugati irányba halad. Tudod, hogy neked északra kellene továbbmenned, de most kénytelen vagy ezek közül választani és reménykedni, hogy jó helyen bukkansz majd ki. Nyugatra indulsz, és megkönnyebbülsz, mikor egy elágazáshoz érsz. Északra fordulsz, és sokkal nyugodtabban folytatod az utad. Lapozz a 195-re.",
@@ -392,13 +410,13 @@
     },
     "73": {
       "szoveg": "Továbbra is nyugati irányba haladva észre- veszed, hogy a járat egy kisebb sziklahalomban ér véget. Csákány és ásó nélkül itt esélyed sem lenne átjutni. Ahogy megfordulsz, hogy visszatérj az előző elágazáshoz, egy sötétebb folt egy újabb észak felé ve- zető alagút jelenlétét árulja el. Úgy döntesz erre mész tovább. Lapozz a 174-re.",
-      "akcio": [174],
-      "ugras": []
+      "akcio": [],
+      "ugras": [174]
     },
     "74": {
       "szoveg": "Átlépsz a két Iszapsárkány tetemén és a szükségesnél óvatlanabbul végigsietsz a keskeny úton. Egy rémisztő pillanatra megbillensz az egyik medence irányába, mikor lábad megcsúszik egy ködarabon, de végül némi kapálózás segítségével sikerül egy újabb lépést tenned, és valamivel stabilabb talajt érned. Lapozz a 63-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [63]
     },
     "75": {
       "szoveg": "Túl nehéz vagy az ingatag építménynek, ami összetörik a lábad alatt. Egyenesen a vízbe zuhansz, és kénytelen vagy kiúszni belőle, hogy meg ne fulladj. Az áramlat azonban nagyon erős. Lapozz a 148-ra",

@@ -4,9 +4,8 @@ class Ellenfel:
         self.name = name
         self.HP = HP
         self.ugyesseg = ugyesseg
+    def ellenfelsebzes(self, szam):
+        self.HP = self.HP - szam
 
-    def hpmod(self, szam):
-        if szam > 0:
-            self.HP = self.HP + szam
-        else:
-            self.HP = self.HP - szam
+    def ellenfelheal(self, szam):
+        self.HP = self.HP + szam
