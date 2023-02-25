@@ -476,7 +476,7 @@
       "szoveg": "A Tolvajnál mindössze 3 Aranytallért és egy háromszög alakú, penészes gyümölcsöt találsz. Még soha nem láttál ehhez hasonlót, de gyanítod, hogy ez lehet a Xentos, a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotban, gond nélkül megkoc- káztatnád, hogy belekóstolj, így azonban úgy döntesz, hogy itt hagyod és folytatod az utad észak felé. Hamarosan egy útelágazás- hoz érsz. Ha továbbra is északnak tartasz, lapozz a 108-ra. Ha a nyugati irányba le- ágazó új járaton mennél tovább, lapozz a 147-re.",
       "akcio": ["+penz"],
       "mennyiseg": [3],
-      "ugras": [108, 147]
+      "ugras": [108,147]
     },
     "86": {
       "szoveg": "Ahogy körbenézel, észreveszel egy kötelet, amit egy nagyméretű sziklához kötöztek. Amennyire elnézed, nincs túl jó állapotban, és azt sem látod, milyen mélyen ér le a szakadékba, de úgy tűnik, ez az egyetlen lehetőséged a lejutásra. Tedd próbára SZERENCSÉD! Hogyha szerencséd van, lapozz a 190-re. Ha nincs, lapozz a 4-re.",
@@ -812,7 +812,7 @@
     },
     "140": {
       "szoveg": "Felkészülsz az ütközetre, miközben a két Denevér zuhanórepülésben közelít feléd. Hogyan is remélheted, hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próbálnod a szoba egy másik részébe csalogatnod őket. Hogyha a pajzsod a levegőbe hajítanád, talán azt hinnék, hogy az egy másik áldozat. Bármit is teszel, egyesével kell megküzdened velük.",
-      "akcio": [],
+      "akcio": ["harc"],
       "ugras": [160],
       "ellenfelek": 2,
       "ellenfel": {
