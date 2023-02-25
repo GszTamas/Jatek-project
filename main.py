@@ -199,6 +199,13 @@ while not Nyert:
         break
 
     # lépések
+    if "kisebbnagyonbb" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        if duplakockadobas() > Jatekos.Skill:
+            Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][0])
+            LepettEMar = True
+        else:
+            Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][1])
+            LepettEMar = True
     if "szerencseproba" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         if szerencseproba():
             Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['HaVan'])

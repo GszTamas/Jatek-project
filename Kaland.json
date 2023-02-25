@@ -729,41 +729,405 @@
       "ugras": [142]
     },
     "126": {
-      "szoveg": "",
+      "szoveg": "Az alagút északi irányba halad, egy idő után azonban kettéágazik. A jobb oldali alagút olyan meredeken ereszkedik lefelé, hogy még durván faragott lépcsőket is látsz ben- ne. Ha erre akarsz továbbmenni, lapozz a 155-re. Ha a szintben maradó, egyenesen továbbhaladó folyosón folytatnád az utad, lapozz a 118-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [155, 118]
     },
     "127": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "A járat fokozatosan kiszélesedik, és hamarosan egy sziklapárkányra érsz, ami kelet- nyugati irányban fut végig egy magas sziklafal közepén. Tiszta szerencse, hogy nem siettél nagyon, különben most egyenesen a szakadékba zuhantál volna. Hasra fekszel a párkányon és letekintesz a szélén. Messze alattad egy kis hidat látsz, ami sebesen folyó patak felett ível át. Elhátrálsz a széléről. Felnézel, de semmit nem látsz, csak a sötétséget. Nem látod, hogyan tudnál leereszkedni a völgy fenekére, a perem pedig nem messze semmivé keskenyedik mindkét oldalon. Ha nálad van a Lebegés Köpenye, lapozz a 23-ra. Ha nincs, lapozz a 62-re.",
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Lebegés Köpenye",
+        "HaVan": 23
+      },
+      "ugras": [62]
     },
     "128": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "Még élsz! Bármennyire is fáradt vagy, kardod markolatával darabokra zúzod a tükröt. Ebből már nem fog újabb kihívó előlépni. Egy keskeny szirten találod magad, egy magas sziklafal kellős közepén. A barlang- üreg plafonja áthatolhatatlan sötétségbe burkolózik. Előtted egy folyó halad keletről nyugatra, felette pedig egy híd ível át. Nem találsz lefelé vezető utat, csak egy vas- gyűrűn akad meg a szemed, amit a falba rögzítettek. Hozzákötöd a köteled, majd elkezdesz lefelé mászni. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 48-ra. Ha nincs szerencséd, lapozz a 93-ra.",
+      "akcio": ["szerencseproba"],
+      "HaVan": 49,
+      "ugras": [93]
     },
     "129": {
-      "szoveg": "",
+      "szoveg": "Hamarosan egy újabb elágazáshoz érsz. Ha kelet felé mennél tovább, lapozz a 112-re. Hogyha északnak folytatnád az utad, lapozz a 66-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [112,66]
     },
     "130": {
-      "szoveg": "",
+      "szoveg": "Minden erődet összeszedve próbálod meg- emelni a fülénél fogva, azonban meg sem moccan. Kénytelen vagy feladni a dolgot és északi irányban folytatni az utad. Lapozz a 80-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [80]
     },
     "131": {
-      "szoveg": "",
+      "szoveg": "Elmondod a férfinak, hogy nincs nálad a Szobor. Arca kifejezéstelen, amikor meg- szólal. Rendben van. Kövess. fordul, és egy csigalépcsőn elindul fölfelé. Nincs választásod, kénytelen vagy követni. A lépcső egy pódiumon ér véget, és boldogsággal tölt el, hogy ismét bőrödön érezheted a nap sugarait, a szellőt. Mintha egy éve nem jártál volna a felszínen. Lapozz a 26-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [26]
     },
     "132": {
-      "szoveg": "",
-      "akcio": [],
+      "szoveg": "A víz elsodor a szikla mellett, és bármenynyire is igyekszel, nem tudod elkapni. Próbálsz az áramlattal együtt úszni, abban bízva, hogy végül a partra vet téged, ám miközben a barlangüreg nyugati fala felé közeledtek, kénytelen vagy rájönni, hogy a folyam eltűnik egy keskeny alagútban. Ha a felszínen maradsz, csúnyán be fogod verni a fejed a plafonba, úgyhogy mély levegőt veszel és lebuksz. Az áramlat magával sodor az alagútba, és többé nem bukkansz elő. Kalandod itt véget ér.",
+      "akcio": ["gameover"],
       "ugras": []
     },
     "133": {
+      "szoveg": "Kardoddal széttöröd a zárat és kitárod a cella ajtaját. Szabad vagy. Most pedig gyorsan mondd el, hol va... A férfi véznaságához képest meglepő fürgeséggel rád ugrik és kicsavarja kezedből a kardodat. Ezután a gyomrodba szúrja saját fegyvered, és csuklójának egy csavarásával kibelez. Nem lett volna szabad megbíznod egy bűnözőben. Kalandod itt ocsmány véget ér.",
+      "akcio": ["gameover"],
+      "ugras": []
+    },
+    "134": {
+      "szoveg": "Valamennyi mágia még van a Gyűrűdben, ami figyelmeztet, hogy a szoba átkutatása előtt próbálj meg meggyőződni arról, hogy nincs-e benne csapda. Sikerül kitapogatnod egy alig észrevehető, hajszálvékony rést a kőpadlóban, ezért úgy döntesz, nem kockáztatod meg, hogy belépj. Lapozz a 154-re.",
+      "akcio": [],
+      "ugras": [154]
+    },
+    "135": {
+      "szoveg": "Felnevetsz a gondolatra, hogy egy ilyen vénséges, törékeny ember árthatna neked, miután annyi veszélyt sikerült túlélned. Dühödt kiáltással felemeled kardodat, hogy egyetlen csapással leszeld az alak fejét a nyakáról. A férfi a lábadra mutat, melyek egyből ólomnehézzé változnak. Képtelen vagy megmozdítani őket. Bár minden izmod megfeszül, combod megkeményedik. hátad merevvé válik, felemelt karjaid meg- szilárdulnak. Csapás közben megdermedve rémülten nézed, ahogy az idős férfi hozzád lép és csontos ujjával megkocogtatja az arcod. Semmit nem érzel, de hallod a fém és szikla jellemző hangját, mikor gyűrűi az orrodnak ütődnek. Kétségbeesetten próbálva menekülni, még egy utolsó lélegzetet veszel, mielőtt a szíved kővé válik. Kalandod itt véget ér.",
+      "akcio": ["gameover"],
+      "ugras": []
+    },
+    "136": {
+      "szoveg": "Visszatérsz a korábbi elágazáshoz. Előtted áll az ajtó, amin át beléptél. Arra nem mehetsz tovább, így északra fordulsz. Lapozz a 172-re.",
+      "akcio": [],
+      "ugras": [172]
+    },
+    "137": {
+      "szoveg": "Elég hosszú ideje barangolsz már az alagutakban, és kezdesz kétségbe esni, mikor az északi falon egyszer csak egy ajtó bukkan fel. Ha be akarsz nyitni rajta, lapozz a 120-ra. Ha kelet felé mennél tovább, lapozz a 28-ra.",
+      "akcio": [],
+      "ugras": [120,28]
+    },
+    "138": {
+      "szoveg": "Kardodhoz kapsz, de elkéstél. Az állat meghallotta a zajt és felébredt. Rémülten nézed, ahogy először egy, majd két pofa emelkedik fel, hogy a levegőbe szagoljon. Ez nem egy egyszerű kutya, vagy netán farkas. Ez egy rémséges Xlaia, ami legjobb tudomásod szerint körülbelül száz éve halt ki. A falhoz ugrasz, mert tudod, hogy védened kell majd hátadat, és előhúzott karddal készülsz fel a lény támadására. A Xlaia morogva ugrik ki kosarából. Mindkét vicsorgó pofából sárga agyarak lógnak elő, melyeken még ott piroslik legutóbbi ebédjük vére. Hogy még rosszabb legyen a helyzet, a lény szájaiból hosszú, nyálkás szálakban lóg a nyál, ami azt jelenti, hogy ez a fenevad veszett! Bár lenne nálad némi víz, hogy távol tartsd magadtól, ahogy a fenti világban is tennéd. A teremtmény jobbra-balra lengeti fejeit, miközben közeledik feléd. Meg kell küzdened vele!",
+      "akcio": ["harc"],
+      "ellenfelek": 1,
+      "ellenfel": {
+        "nev": "Xlaia",
+        "HP": 7,
+        "ugyesseg": 8
+      },
+      "ugras": [100]
+    },
+    "139": {
+      "szoveg": "Miközben felhajtod a színtelen és szagtalan folyadékot, azonnal érzed, hogy felfrissülsz (nyersz 1 ÉLETERŎ pontot). Utána folytatatot az utad kelet felé, lapozz a 29-re.",
+      "akcio": ["Eleteronyeres"],
+      "ertek": 1,
+      "ugras": [29]
+    },
+    "140": {
+      "szoveg": "Felkészülsz az ütközetre, miközben a két Denevér zuhanórepülésben közelít feléd. Hogyan is remélheted, hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próbálnod a szoba egy másik részébe csalogatnod őket. Hogyha a pajzsod a levegőbe hajítanád, talán azt hinnék, hogy az egy másik áldozat. Bármit is teszel, egyesével kell megküzdened velük.",
+      "akcio": [],
+      "ugras": [160],
+      "ellenfelek": 2,
+      "ellenfel": {
+        "nev": "Első Denevér",
+        "HP": 7,
+        "ugyesseg": 5
+      },
+      "ellenfel2": {
+        "nev": "Második Denevér",
+        "HP": 6,
+        "ugyesseg": 6
+      }
+    },
+    "141": {
+      "szoveg": "A járat hamarosan egy ajtóban ér véget. Ha ki szeretnéd nyitni és belépnél rajta, lapozz a 107-re. Ha nem akarod tudni, mi vár rád odabenn és inkább visszamennél az elágazáshoz, hogy kelet felé folytasd az utad, lapozz a 122-re.",
+      "akcio": [],
+      "ugras": [107,122]
+    },
+    "142": {
+      "szoveg": "A lépcsősor végül egy járatba torkollik, ami kiszélesedik. Lélegzetelállító táj tárul a szemed elé. A folyosó egy széles szirtben ér véget, egy hatalmas barlangüreg falának kellős közepén. Óvatosan a szegély széléhez lépsz és letekintesz. Az egyik oldalon sziklába vájt lépcsősort pillantasz meg, ami egészen a barlang több száz méter mélyen lévő aljáig ereszkedik lefelé. Odalenn egy gyors folyású folyót látsz, amit ha el akarsz érni, kénytelen leszel cikkcakkban lemászni a semmilyen védelmet nem adó lépcsőkön. Az üreg olyan hatalmas, hogy saját légköre van. Most épp felhők gyülekeznek a fejed felett, melyekből időnként villámok csapnak elő. Ez az egyetlen lehetőséged a lejutásra, úgyhogy nagyon óvatosan haladsz. Végül földet érsz. Lapozz a 27-re.",
+      "akcio": [],
+      "ugras": [27]
+    },
+    "143": {
+      "szoveg": "A keleti falon egy ajtó bukkan fel. Erős zárt látsz rajta, és túlságosan masszív ahhoz, hogy csak úgy betörhesd. Ha van nálad egy Bronz Kulcs, lapozz a 70-re. Ha nincs, úgy kénytelen vagy folytatni az utad - lapozz a 106-ra.",
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Bronz Kulcs",
+        "HaVan": 70
+      },
+      "ugras": [106]
+    },
+    "144": {
+      "szoveg": "Mikor már félúton jársz a fényfolt felé, a talaj megnyílik alattad, de még az előtt sikerül visszalépned, hogy te is beleesnél - korábbi óvatosságod meghozta gyümölcsét. Ahogy közelebbról is megvizsgálod, meg- állapítod, hogy egy kis, kör alakú verem az a padló kellős közepén. Rozoga létra fut lefelé végig az oldalán, de vagy túl sötét van, vagy túl mély lyuk, mert nem látod az alját. Ha szét akarsz nézni benne, lapozz a 7-re. Ha inkább átugornád és kiderítenéd, mi a fényfolt forrása, lapozz a 96-ra.",
+      "akcio": [],
+      "ugras": [7,96]
+    },
+    "145": {
+      "szoveg": "A helyiség közepén egy 30 Aranytallérból épített csillogó kupac áll. Óvatosan, az esetleges csapdákra odafigyelve teszed őket zsebre. Ha további érmék után akarod át- kutatni a sarkokat, lapozz a 36-ra. Hogyha inkább távoznál az északi ajtón át, lapozz a 98-ra.",
+      "akcio": ["+penz"],
+      "mennyiseg": 30,
+      "ugras": [36, 98]
+    },
+    "146": {
+      "szoveg": "Hamarosan egy ajtóhoz érsz, ami a nyugati falból nyílik. Ahogy végighúzod rajta a kezed, a kilincset keresve, egy keresztet sikerül kitapintanod rajta, amit nem túl mélyen véstek bele. Ha ki akarod nyitni az ajtót, lapozz az 51-re. Ha folytatnád az utad észak felé, lapozz a 80-ra.",
+      "akcio": [],
+      "ugras": [51,80]
+    },
+    "147": {
+      "szoveg": "A járat egy ajtóban végződik. Hogyha ki szeretnéd nyitni, lapozz a 22-re. Ha visszatérnél az elágazáshoz, és észak felé folytat nád az utad, lapozz a 108-ra.",
+      "akcio": [],
+      "ugras": [108]
+    },
+    "148": {
+      "szoveg": "Csaknem megfulladsz, de kitartasz. Dobj két kockával. Ha az eredmény kevesebb vagy ugyanannyi, mint ÜGYESSÉG pontjaid száma, lapozza 103-ra. Ha nagyobb, lapozz a 15-re.",
+      "akcio": ["kisebbnagyonbb"],
+      "ugras": [103,15]
+    },
+    "149": {
+      "szoveg": "Megkérdezed a fogolytól, mondana-e neked valami hasznosat a szabadságáért cserébe. A fickó szemei felcsillannak, és azonnal bólint. Elmondhatom neked, merre találod a legnagyobb rubint, amit valaha láttál - mondja. De előbb eressz ki innen. Ha teljesíted a kérését, lapozz a 133-ra. Hogyha inkább végeznél vele, lapozz a 24-re. Ha itt akarod hagyni és az északi ajtón át távoznál, lapozza 72-re.",
+      "akcio": [],
+      "ugras": [133,24,72]
+    },
+    "150": {
+      "szoveg": "Ajkadhoz emeled az üvegcsét és megiszod a tartalmát. Mennyei íze van, így ujjaddal az utolsó cseppet is kitörlöd. Ekkor forogni kezd körülötted a járat, te pedig összeesel. Az üvegben Altató Ital volt. Órákon át heversz a padlón önkívületben, kiszolgáltatva a tolvajoknak és más veszedelmeknek Mikor felébredsz, még mindig elég fáradtnak érzed magad, bár a fejed teljesen ki- tisztult. A soron következő csaták során a fáradtság miatt 1-el csökkentened kell majd Támadóerődet. folytatod az utad kelet felé, lapozz a 29-re.",
+      "akcio": ["csatamod"],
+      "ertek": 1,
+      "ugras": [29]
+    },
+    "151": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "152": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "153": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "154": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "155": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "156": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "157": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "158": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "159": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "160": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "161": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "162": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "163": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "164": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "165": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "166": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "167": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "168": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "169": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "170": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "171": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "172": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "173": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "174": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "175": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "176": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "177": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "178": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "179": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "180": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "181": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "182": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "183": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "184": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "185": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "186": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "187": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "188": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "189": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "190": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "191": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "192": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "193": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "194": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "195": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "196": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "197": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "198": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "199": {
+      "szoveg": "",
+      "akcio": [],
+      "ugras": []
+    },
+    "200": {
       "szoveg": "",
       "akcio": [],
       "ugras": []
