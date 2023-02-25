@@ -61,6 +61,11 @@ class Jatekos:
     def pluszitem(self, inp):
         self.Items.append(inp)
 
+    def pluszpenz(self, inp):
+        self.Gold = self.Gold + inp
+    def pluszcrystal(self, inp):
+        self.Crystals.append(inp)
+
     def JatekosBlessing(self):
         self.blessed = True
     def JatekosCombatBlessing(self):

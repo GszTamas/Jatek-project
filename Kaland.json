@@ -2,7 +2,7 @@
   "kaland": {
 
     "0": {
-      "szoveg": "Az Oszria-öböltől délre, nagyjából nyolcvan kilóméterre terük el a Koponyák Sivataga. Forró veszedelmes és mindnent egybevetve igen kellemetlen hely, ám te kéyntelen vagy átkelni rajta, hisz déli felén terül és a frágakőbányáiról messze földön híres és gazdag Zafírváros. Vonz a hatalmas vagyon, mely minden harcos számára elérhető, aki hajlandó akár a köveket, akár a pénzt kísérni egyik településből a másikba. A munka azonban nem veszélytelen.\n\tAhogy a sivatag felé közeledsz segélykiáltásokat hallasz az utat szegélyző bozótos túloldaláról. Mikkor közelebb lépsz, még épp látod, ahogy egy ocsmány Goblin tőrt márt egy igen fontosnak látszó Elf férfi szívébe, aki azonnal a földre roskad.\n\tEgyből előre rontasz, hogy elkapd a gyilkost, ám pechedre megbotlasz, az aljas teremtmény pedig észrevesz téged, és eltűnik az aljnövényzetben.\n\tCsak állsz, és a halott Elf tetemét bámulod. Amennyire meg tudod állapítani, az egyik helyi törzs vezetője lehetett. Kezében egy nagy, kék színű gyémántot szorongat. Hirtelen megrezzennek körülötted a bokrok! Arra gondolsz, talán a Goblin tért vissza, így előhúzod kardodat. Legnagyobb meglepetésedre azonban húsz vagy harminc Elf gyűrűjében találod magadat, akik megfeszített íjakkal vesznek körbe. Egyikük előre lép, és komoran megszólít.\n\t-Ember!-kezdi- Karddal a kezedben, apám, a Törzsfőnökünk meggyilkolt testével a lábad előtt találtunk rád.\n\tRájössz, hogy ezek azt hiszik, te vagy a gyilkos. Tiltakozni próbálnál, azonban az Elf egy intésére elhallgatsz. - Az Ítélet Labirintusához viszünk - fejezi be mondanivalóját. Hátat fordít neked, és elsétál, te pedig kísérőid körében kénytelen vagy követni. Miközben az őrök egymást közt vitatják meg a látottakat, megtudod, hogy a labirintus egy titkos hely, ahol a bűnösöket teszik próbára. Minden \"próba\" előtt egy kis Aranyszobrot rejtenek el annak mélyén,  próba alanyának pedig meg kell tanulnia azt. Ha ez nem sikerül, bűnösnek ítélik, ám ha rélel, és sikerül kijutnia odabentről, ártatlannak találják, és szabadon engedik.\n\tA fák ritkulni kezdenek, a menet pedig egy hatalmas fa törzsénél megtorpan. A Főnök fia motyog pár szót, mire a kéreg egy része kinyílik, mögötte pedig feltűnik a labirintus bejárata...",
+      "szoveg": "Az Oszria-öböltől délre, nagyjából nyolcvan kilóméterre terük el a Koponyák Sivataga. Forró veszedelmes és mindnent egybevetve igen kellemetlen hely, ám te kéyntelen vagy átkelni rajta, hisz déli felén terül és a frágakőbányáiról messze földön híres és gazdag Zafírváros. Vonz a hatalmas vagyon, mely minden harcos számára elérhető, aki hajlandó akár a köveket, akár a pénzt kísérni egyik településből a másikba. A munka azonban nem veszélytelen. Ahogy a sivatag felé közeledsz segélykiáltásokat hallasz az utat szegélyző bozótos túloldaláról. Mikkor közelebb lépsz, még épp látod, ahogy egy ocsmány Goblin tőrt márt egy igen fontosnak látszó Elf férfi szívébe, aki azonnal a földre roskad.\n\tEgyből előre rontasz, hogy elkapd a gyilkost, ám pechedre megbotlasz, az aljas teremtmény pedig észrevesz téged, és eltűnik az aljnövényzetben.\n\tCsak állsz, és a halott Elf tetemét bámulod. Amennyire meg tudod állapítani, az egyik helyi törzs vezetője lehetett. Kezében egy nagy, kék színű gyémántot szorongat. Hirtelen megrezzennek körülötted a bokrok! Arra gondolsz, talán a Goblin tért vissza, így előhúzod kardodat. Legnagyobb meglepetésedre azonban húsz vagy harminc Elf gyűrűjében találod magadat, akik megfeszített íjakkal vesznek körbe. Egyikük előre lép, és komoran megszólít.\n\t-Ember!-kezdi- Karddal a kezedben, apám, a Törzsfőnökünk meggyilkolt testével a lábad előtt találtunk rád.\n\tRájössz, hogy ezek azt hiszik, te vagy a gyilkos. Tiltakozni próbálnál, azonban az Elf egy intésére elhallgatsz. - Az Ítélet Labirintusához viszünk - fejezi be mondanivalóját. Hátat fordít neked, és elsétál, te pedig kísérőid körében kénytelen vagy követni. Miközben az őrök egymást közt vitatják meg a látottakat, megtudod, hogy a labirintus egy titkos hely, ahol a bűnösöket teszik próbára. Minden \"próba\" előtt egy kis Aranyszobrot rejtenek el annak mélyén,  próba alanyának pedig meg kell tanulnia azt. Ha ez nem sikerül, bűnösnek ítélik, ám ha rélel, és sikerül kijutnia odabentről, ártatlannak találják, és szabadon engedik.\n\tA fák ritkulni kezdenek, a menet pedig egy hatalmas fa törzsénél megtorpan. A Főnök fia motyog pár szót, mire a kéreg egy része kinyílik, mögötte pedig feltűnik a labirintus bejárata...",
       "akcio": ["tortenetkezdes"],
       "ugras": [1]
     },
@@ -100,7 +100,7 @@
       "szoveg": "Amint belépsz a szobába, rémülten eszmélsz rá, hogy előbb alaposan szét kellett volna nézned a plafonon ugyanis egy hatalmas Pók kapaszkodik, ami minden szemével téged bámul. Négy ezüstszínű gubó lóg mellette, és összeszorul a szíved, mikor rájössz, hogy két ember, egy Törpe és egy Elf vna bgeléjük csavarva, akik leendő ellenfeled legutóbbi áldozatai voltak, és már csak arra várnak, hogy a bestia egy jót lakomázzon belőlük. A Pók némán a padlóra pottyan, csáprágói mohón feléd nyúlnak.  Óriáspók  Ügyesség 9 Eléterő 5  Ha végzel ezzel a teremtménnyel, lapozz a 94-re. Ha nem, hamarosan te is személyre szőtt selyemkabátot fogsz kapni.",
       "akcio": ["harc"],
       "ugras": [94],
-
+      "ellenfelek": 1,
       "ellenfel": {
         "nev": "Pók",
         "HP": 5,
@@ -225,7 +225,7 @@
       "szoveg": "Az alagút, bár folyamatosan jobbra-balra kanyarog, mégis tartja az északi irányt, végül élesen oldalra kanyarodik, és ekkor majdnem belefut egy fekete köpenybe öltözött alakba. Tört tart a kezében, az arcán ülő tekintet rettegésről árulkodik! Rájössz, hogy nem te vagy az egyetlen, akit most próbára tesznek, és hogy mindketten ugyanazon Szobor után kutattok. A fickó rád veti magát észre, hogy mielőbb végezni akar veled. Harcolnod kell! Tolvaj",
       "akcio": ["harc"],
       "ugras": [85],
-
+      "ellenfelek": 1,
       "ellenfel": {
         "nev": "Tolvaj",
         "HP": 6,
@@ -364,7 +364,7 @@
       "akcio": ["eleterovesztes", "harc"],
       "ertek": [1],
       "ugras": [118],
-
+      "ellenfelek": 1,
       "ellenfel": {
         "nev": "Törpe",
         "HP": 5,
@@ -450,104 +450,136 @@
       "ugras": [89]
     },
     "81": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "Olyan csendben lopakodsz előre, amennyire csak tudsz, ám kardod véletlenül nekicsa- pódik a kőnek, és éles, csengő hangot ad ki. Tedd próbára SZERENCSED! Ha szerencsés vagy, lapozz a 97-re. Ha nincs szerencséd, lapozz a 138-ra.",
+      "akcio": ["szerencseproba"],
+      "HaVan": 97,
+      "ugras": [138]
     },
     "82": {
-      "szoveg": "",
+      "szoveg": "Sikerül levágnod az Iszapsárkány fejét, mely előtted hever, elzárva az utat a keskeny párkányon. Nem mered kézzel ellökni, mert a fején lévő nyúlványok még mindig azzal a furcsa, zöld színnel izzanak, amit korábban is láttál. Ennélfogva kardodat emelőként aládugva megemeled egy kicsit, hogy legurítsd a szegélyről. Belecsobban a sárba, ahol végső haláltusájában ismét püffedni kezd. Gyorsan elsietsz mellette, még mielőtt megint elzárná az utat, de már csak leeresztésének sípolását hallod, amint végleg távozik az élők sorából. Lapozz az 52-re.",
       "akcio": [],
-      "ugras": []
+      "ugras": [52]
     },
     "83": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "Az öreg arcra megkönnyebbülés ül ki. Ki- nyitja a fal egyik titkos rekeszét és elővesz egy börerszényt. Előrenyújtott kezeidbe önti annak tartalmát 27 Aranytallért és egy Gyémántot, amiket azonnal a hátizsákodba pakolsz. Ha most az északi falon álló ajtón át távozol, lapozz a 180-ra. Ha úgy döntesz, megszeged adott szavad és a pénz ellenére is végzel vele, lapozz a 17-re.",
+      "akcio": ["+penz", "+kristaly"],
+      "targy": "Gyémánt",
+      "mennyiseg": [27],
+      "ugras": [108, 17]
     },
     "84": {
-      "szoveg": "",
+      "szoveg": "Balodon egy masszív tölgyfa ajtót látsz, melyet acélszegecsek hada tarkit. Kilincse, mely az ajtólap közepéből mered kifelé, leginkább egy hatalmas madárra emlékez- tet. Könnyen megeshet, hogy ez a díszes kapu a Szobrot őrzi! Ha be szeretnél nyitni, lapozz a 157-re. Ha úgy gondolod, ez túl nyilvánvaló megoldás lenne és tovább mennél észak felé, lapozz a 125-re.",
       "akcio": [],
-      "ugras": []
+      "ugras": [125, 157]
     },
     "85": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "A Tolvajnál mindössze 3 Aranytallért és egy háromszög alakú, penészes gyümölcsöt találsz. Még soha nem láttál ehhez hasonlót, de gyanítod, hogy ez lehet a Xentos, a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotban, gond nélkül megkoc- káztatnád, hogy belekóstolj, így azonban úgy döntesz, hogy itt hagyod és folytatod az utad észak felé. Hamarosan egy útelágazás- hoz érsz. Ha továbbra is északnak tartasz, lapozz a 108-ra. Ha a nyugati irányba le- ágazó új járaton mennél tovább, lapozz a 147-re.",
+      "akcio": ["+penz"],
+      "mennyiseg": [3],
+      "ugras": [108, 147]
     },
     "86": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "szoveg": "Ahogy körbenézel, észreveszel egy kötelet, amit egy nagyméretű sziklához kötöztek. Amennyire elnézed, nincs túl jó állapotban, és azt sem látod, milyen mélyen ér le a szakadékba, de úgy tűnik, ez az egyetlen lehetőséged a lejutásra. Tedd próbára SZERENCSÉD! Hogyha szerencséd van, lapozz a 190-re. Ha nincs, lapozz a 4-re.",
+      "akcio": ["szerencseproba"],
+      "HaVan": 190,
+      "ugras": [4]
     },
     "87": {
-      "szoveg": "",
+      "szoveg": "Az alagutat egy jókora, vasveretes ajtó zárja le. Megpróbálod lenyomni a kilincset, de zárva van. A méretes kulcslyukon átnézve nem sokat tudsz kivenni a túloldalból. Mikor a füledet hozzászorítod, tollak suhogását és fütyülés-szerű sóhajtást hallasz. Ha van nálad egy Arany Kulcs, lapozz a 13-ra. Ha nincsen, lapozz a 121-re.",
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Aranykulcs",
+        "HaVan": 13
+      },
+      "ugras": [121]
+    },
+    "88": {
+      "szoveg": "A zöld könyvet kézzel írták, és valamiféle naplóra emlékeztet. Az utolsó bejegyzés, legnagyobb döbbenetedre, a te nevedet tar- talmazza. Ez a próbára küldött bünözök listája. Szerencsére egyelőre nem látsz ítéletet beleírva. Sikerül megállapítanod, hogy mióta te beléptél, azóta nem küldtek újabb embert a próbára, ám elötted egy nappal korábban egy tolvaj lépett be, és az ő neve mellett már ott szerepel a döntés: bűnös! Ha még nem tetted, most belenéz- hetsz a piros-lapozz. az 59-re - vagy a kék -lapozz a 104-re-könyvbe. A könyvtárból való távozáshoz lapozz a 10-re.",
       "akcio": [],
+      "ugras": [59, 104, 10]
+    },
+    "89": {
+      "szoveg": "A járat meredeken emelkedik, te pedig gyorsan fáradni kezdesz. Figyelmed ellan- kad, és nem veszed észre a padlóban lévő, meglazult ködarabot. Megbotlasz és elesel, közben pajzsod a fal egyik repedésébe ékelődik. Miközben próbálod kiszabadítani, elferdül. Sérült pajzsod miatt a soron követ- kező csatákban 2-vel csökkentened kell majd Támadóerődet. Morogva mész tovább, míg végül egy újabb elágazáshoz nem érsz. Hogyha a nyugati ágon folytatnád az utad, lapozz a 95-re. Ha egyenesen mész tovább, lapozz a 127-re.",
+      "akcio": ["csatamod"],
+      "ertek": 2,
+      "ugras": [95, 127]
+    },
+    "90": {
+      "szoveg": "Az ajtón benyitva vaksötét fogad. Ha szeret- nél végigtapogatózni a sötétben, lapozz a 167-re. Ha inkább távoznál innen, lapozz a 154-re.",
+      "akcio": [],
+      "ugras": [167, 154]
+    },
+    "91": {
+      "szoveg": "Előveszed hátizsákodból a Szobrot, és mi- után megdörzsölöd a kabátod ujjával, az öregember felé tartod. Elveszi töled és kö- zömbösen az íróasztal fiókjába helyezi. Még csak arra sem veszi a fáradtságot, hogy rá- zárja a kulcsot. Int neked, hogy kövesd, és egy csigalépcsőn elindul fölfelé. A lépcső egy széles pódiumon ér véget, és boldog- sággal tölt el, hogy ismét börödön érezheted a nap meleg sugarait, a szellőt. Mintha egy éve nem jártál volna a felszínen. Lapozz a 200-ra.",
+      "akcio": [],
+      "ugras": [200]
+    },
+    "92": {
+      "szoveg": "Elkapod a követ és egy pillanatra megpi- hensz, miközben a folyó megpróbál magá- val ragadni életmentő horgonyodról. Végül felkapaszkodsz a sziklára és lihegve elte- rülsz rajta. Ekkor valami arany csillogás vonja magára a figyelmedet. Előre mászol, és legnagyobb örömödre megpillantod az Aranyszobrot, melynek keresésére indultál, pihenőhelyed egyik mélyedésében! Teljesen megfeledkezel kimerültségedről, magadhoz veszed és a túlpartra ugrasz. Lapozz a 76-ra.",
+      "akcio": [],
+      "ugras": [76]
+    },
+    "93": {
+      "szoveg": "Már félúton jársz lefelé, mikor vérfagyasztó üvöltés csapja meg a füledet. Ahogy fel- tekintesz, egy hatalmas madarat pillantasz meg, ami egy, a sziklafalon lévő ágról tekint le rád. Széles szárnyai egyetlen csapásával a levegőbe emelkedik, tesz egy kört a folyó felett, majd megindul feléd. Érzed, ahogy tenyered izzadni kezd a félelemtől. A kötél kicsúszik a kezeid közül, te pedig zuhanni kezdesz a talaj felé. A hatalmas madár dia- dalmas rikoltással kap el téged a levegőben, majd felrepül a fészkéhez és érzed, hogy esel... esel... egyenesen ocsmány kicsinyei közé, akik már türelmetlenül várják a kö- vetkező etetést. Egyesével tépik ki végtag- jaidat, majd mohon befalják. Kalandod itt véget ér.",
+      "akcio": ["gameover"],
       "ugras": []
     },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+    "94": {
+      "szoveg": "Betekered ellenfeled saját ezüstszínű hálójá- ba. Ezután megragadod a rubint és az ajtó felé indulsz. Már alig várod, hogy kikerülj ebből a selyemmel bevont kriptából! A Pók hatalmas teteme, melyet ragacsos selyem- szálak borítanak, az út kellős közepén he- ver. Kénytelen vagy átmászni rajta, és az enyves massza érintésétől valósággal rosszul leszel. Mikor végre eléred a kijáratot, meg- hemperegsz a porban, hogy megszabadulj a ragacsos érzéstől. Koszos vagy és fáradt. Magad mögött hagyod a helyet és északnak indulsz. Lapozz a 106-ra.",
+      "akcio": ["+kristaly"],
+      "targy": "Rubint",
+      "ugras": [106]
     },
-    "": {
-      "szoveg": "",
+    "95": {
+      "szoveg": "Nyugati irányba mész, le egy lejtős járaton, míg el nem érsz egy újabb elágazást. Úgy gondolod, a déli út visszafelé vezetne, így észak felé indulsz. Lapozz a 153-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [153]
     },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+    "96": {
+      "szoveg": "Az alagút kanyarulata mögül túlvilági ra- gyogás árad. Ahogy a falra vetült játékot nézed, úgy érzed, a fény magától lüktet és változtatja a színét. Nagyon óvatosan for- dulsz be a kanyarban, amin túl igen bizarr látvány fogad. Három nagyon alacsony, ezüstszínű, lebegő köpenybe öltözött alak táncol valamilyen rituális táncot a fény for- rása körül. Az üreg falát itt mindenhol tükrök borítják, és a változó színek oda- vissza ugrálnak ezek közt, a lüktető ragyo- gástól erős szédülés tör rád. A forrás egy hatalmas kristály, mely egy magas talapza- ton nyugszik, és képtelen vagy megálla- pítani, pontosan miféle kö is ez. Egyébként sincs idöd sokat spekulálni ezen, mivel az ezernyi tükörképnek köszönhetően az ala- kok felfigyelnek egy óvatlan mozdulatodra. A lények dühödten felkiáltva vetik rád magukat. Egy ellenfélként küzdj meg vele. Fényimádók",
+      "akcio": ["harc"],
+      "ellenfelek": 3,
+      "ellenfel": {
+        "nev": "Fényimádó",
+        "HP": 11,
+        "ugyesseg": 9
+      },
+      "ellenfel2": {
+        "nev": "Fényimádó",
+        "HP": 11,
+        "ugyesseg": 9
+      },
+      "ellenfel3": {
+        "nev": "Fényimádó",
+        "HP": 11,
+        "ugyesseg": 9
+      },
+      "ugras": [191]
     },
-    "": {
-      "szoveg": "",
+    "97": {
+      "szoveg": "Kezed egyből a kardod markolatára teszed, hogy elállítsd a csengő hangot. A kutya mocorog egy kicsit, de nem ébred fel. Szíved a torkodban dobog, ahogy haladsz, de végül gond nélkül elérsz a túloldalra, leemeled a kulcsot a szögről, csendesen ki- nyitod az ajtót és becsapod magad mögött. Miközben odakinn ráfordítod a kulcsot, a túloldalról félelmetes morgást és repedő fa hangja szűrődik át, ahogy az állat újra és újra nekiugrik. Lapozz a 30-ra.",
       "akcio": [],
-      "ugras": []
+      "ugras": [30]
     },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+    "98": {
+      "szoveg": "Az ajtó ugyan zárva van, de a korábban talált kulccsal gond nélkül sikerül kinyitnod. Ahogy belépsz, két dárda repül elő az ajtóban lévő egyik lyukból. Tedd próbára SZERENCSÉD! Ha a szerencsés vagy, lapozz a 44-re. Ha nincs szerencséd, lapozz a 8-ra.",
+      "akcio": ["szerencseproba"],
+      "HaVan": 44,
+      "ugras": [8]
     },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+    "99": {
+      "szoveg": "A fáklyák halovány fényében súlyos vas- rácsot látsz a fal jobb oldalán. Zárva van, és bármennyire is erölködsz, semmit nem látsz mögötte. Ha van nálad egy Bronz Kulcs, és azzal próbálod meg kinyitni a zárat, lapozz a 159-re. Ha nincs nálad a Kulcs, vagy nem akarod kinyitni a ketrecszerű kaput, lapozz a 68-ra és folytasd az utad észak felé.",
+      "akcio": ["targy"],
+      "TargyInfo": {
+        "szukseges": "Bronz Kulcs",
+        "HaVan": 159
+      },
+      "ugras": [68]
     },
-    "": {
-      "szoveg": "",
+    "100": {
+      "szoveg": "A szörnyeteg holtan hever előtted. Nyáladzó pofájának tartalmát gyorsan magába szívja a poros talaj. Karmai színárnyak; egyesével letéped őket a hatalmas mancsról, majd zsebre vágod őket. Ezután leemeled a kulcsot a szegről, kinyitod az ajtót és távozol. Lapozz 30-ra.",
       "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
-    },
-    "": {
-      "szoveg": "",
-      "akcio": [],
-      "ugras": []
+      "ugras": [30]
     },
     "": {
       "szoveg": "",

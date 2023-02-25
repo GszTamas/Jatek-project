@@ -1,7 +1,5 @@
 import json
 import random
-
-from classes.Ellenfel import Ellenfel
 from classes.Jatekos import Jatekos
 
 
@@ -31,43 +29,6 @@ def igenvagynem():
             return False
 
 
-def harc(name, hp, ugyesseg):
-    while hp > 0 or Jatekos.HP > 0:
-        EllensegAttackSTR = duplakockadobas() + ugyesseg  # 1.lépés
-        JatekosAttackSTR = duplakockadobas() + Jatekos.Skill  # 2.lépés
-
-        if EllensegAttackSTR < JatekosAttackSTR:
-            hp - 2
-            print("Megsebezted az ellenfelet!")
-            print("Akarsz Szerencsét próbálni?")
-            if not igenvagynem():
-                print("Nem probáltál szerencsét!")
-            else:
-                if szerencseproba():
-                    print("Súlyos sebzést ejtettél!")
-                    hp - 2
-                else:
-                    print("A seb puszta karcolás!")
-                    hp + 1
-        elif EllensegAttackSTR > JatekosAttackSTR:
-            Jatekos.HP = Jatekos.HP - 2
-            print("Az ellenfél megsebzett téged!")
-            print("Akarsz Szerencsét próbálni?")
-            if not igenvagynem():
-                print("Nem probáltál szerencsét!")
-            else:
-                if szerencseproba():
-                    print("Súlyos sebzést Kaptál!")
-                    Jatekos.HP = Jatekos.HP - 2
-                else:
-                    print("A seb puszta karcolás!")
-                    Jatekos.HP = Jatekos.HP + 1
-        else:
-            print("Kivédtétek egymás ütését!")
-        print(f"{name} Életereje: {hp}")
-        print(f"Játékos Életereje: {Jatekos.HP}")
-
-
 def igenvagynem():
     print("igen vagy nem?")
     while True:
@@ -80,20 +41,22 @@ def igenvagynem():
             print("Hibás bemenet")
 
 
-def harc():
+def harc(csatamod, name, hp, skill):
     while True:
-        EllensegAttackSTR = duplakockadobas() + Ellenfel.ugyesseg  # 1.lépés
+        EllensegAttackSTR = duplakockadobas() + skill  # 1.lépés
         JatekosAttackSTR = duplakockadobas() + Jatekos.Skill  # 2.lépés
         if Jatekos.combatblessed:
-            JatekosAttackSTR = JatekosAttackSTR+1
+            JatekosAttackSTR = JatekosAttackSTR + 1
+        if csatamod > 0:
+            JatekosAttackSTR = JatekosAttackSTR - csatamod
 
         if EllensegAttackSTR < JatekosAttackSTR:
-            Ellenfel.ellenfelsebzes(2)
+            hp = hp - 2
             print("Megsebezted az ellenfelet!")
             if Jatekos.HP < 1:
                 print("nem nyertel")
                 return False
-            elif Ellenfel.HP < 1:
+            elif hp < 1:
                 print("nyertel")
                 return True
             print("Akarsz Szerencsét próbálni?")
@@ -102,17 +65,17 @@ def harc():
             else:
                 if szerencseproba():
                     print("Súlyos sebzést ejtettél!")
-                    Ellenfel.ellenfelsebzes(2)
+                    hp = hp - 2
                 else:
                     print("A seb puszta karcolás!")
-                    Ellenfel.ellenfelheal(1)
+                    hp = hp + 1
         elif EllensegAttackSTR > JatekosAttackSTR:
             Jatekos.jatekosSebzes(2)
             print("Az ellenfél megsebzett téged!")
             if Jatekos.HP < 1:
                 print("nem nyertel")
                 return False
-            elif Ellenfel.HP < 1:
+            elif hp < 1:
                 print("nyertel")
                 return True
             print("Akarsz Szerencsét próbálni?")
@@ -127,13 +90,14 @@ def harc():
                     Jatekos.jatekosHeal(1)
         else:
             print("Kivédtétek egymás ütését!")
-        print(f"{Ellenfel.name} Életereje: {Ellenfel.HP}")
+        print(f"{name} Életereje: {hp}")
         print(f"Játékos Életereje: {Jatekos.HP} \n")
 
 
 Nyert = False
 probaltemar = False
 fellvettekopenyt = False
+csatamod = 0
 input("új játék inditásához gépeljen be bármit: ")
 
 Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)  # HP Luck Skill Gold
@@ -147,14 +111,14 @@ if advDict['kaland'][Jatekos.lokacio]['akcio'] == "tortenetkezdes":
 while not Nyert:
     LepettEMar = False
     Jatekos.lokaciostr()
-    print(advDict['kaland'][Jatekos.lokacio]['szoveg']+"\n")
+    print(advDict['kaland'][Jatekos.lokacio]['szoveg'] + "\n")
     StartInp = input("Folytatáshoz nyomjon entert vagy írjon be egy commandot [statok, kilepes]: ")
     if StartInp == "statok":
         print(Jatekos)
     elif StartInp == "kilepes":
         exit()
 
-#stat váltosztatások
+    # stat váltosztatások
     if "eleterovesztes" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.jatekosSebzes(advDict['kaland'][Jatekos.lokacio]['ertek'])
     if "hplossrng" in advDict['kaland'][Jatekos.lokacio]['akcio']:
@@ -170,18 +134,46 @@ while not Nyert:
     if "combatblessing" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.JatekosCombatBlessing()
 
-#tárgy felvételek
+    # tárgy felvételek
     if "pluszlebeges" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.pluszitem("Lebegés Köpenye")
 
-#harc
-    if "harc" in advDict['kaland'][Jatekos.lokacio]['akcio']:
-        Ellenfel = Ellenfel(advDict['kaland'][Jatekos.lokacio]['ellenfel']['nev'],
-                            advDict['kaland'][Jatekos.lokacio]['ellenfel']['HP'],
-                            advDict['kaland'][Jatekos.lokacio]['ellenfel']['ugyesseg'])
-        harc()
+    if "+penz" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.pluszcrystal(advDict['kaland'][Jatekos.lokacio]['mennyiseg'])
 
-#győzelem vagy gameover detektálás
+    if "+kristaly" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        Jatekos.pluszcrystal(advDict['kaland'][Jatekos.lokacio]['targy'])
+    # harc
+    if "csatamod" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        csatamod = advDict['kaland'][Jatekos.lokacio]['ertek']
+
+    if "harc" in advDict['kaland'][Jatekos.lokacio]['akcio']:
+        if advDict['kaland'][Jatekos.lokacio]['ellenfelek'] == 1:
+            harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel']['nev'],
+                 advDict['kaland'][Jatekos.lokacio]['ellenfel']['HP'],
+                 advDict['kaland'][Jatekos.lokacio]['ellenfel']['ugyesseg'])
+            csatamod = 0
+        elif advDict['kaland'][Jatekos.lokacio]['ellenfelek'] == 2:
+            if harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel']['nev'],
+                    advDict['kaland'][Jatekos.lokacio]['ellenfel']['HP'],
+                    advDict['kaland'][Jatekos.lokacio]['ellenfel']['ugyesseg']):
+                csatamod = 0
+                harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel2']['nev'],
+                     advDict['kaland'][Jatekos.lokacio]['ellenfel2']['HP'],
+                     advDict['kaland'][Jatekos.lokacio]['ellenfel2']['ugyesseg'])
+        elif advDict['kaland'][Jatekos.lokacio]['ellenfelek'] == 3:
+            if harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel']['nev'],
+                    advDict['kaland'][Jatekos.lokacio]['ellenfel']['HP'],
+                    advDict['kaland'][Jatekos.lokacio]['ellenfel']['ugyesseg']):
+                csatamod = 0
+                if harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel2']['nev'],
+                        advDict['kaland'][Jatekos.lokacio]['ellenfel2']['HP'],
+                        advDict['kaland'][Jatekos.lokacio]['ellenfel2']['ugyesseg']):
+                    harc(csatamod, advDict['kaland'][Jatekos.lokacio]['ellenfel3']['nev'],
+                         advDict['kaland'][Jatekos.lokacio]['ellenfel3']['HP'],
+                         advDict['kaland'][Jatekos.lokacio]['ellenfel3']['ugyesseg'])
+
+    # győzelem vagy gameover detektálás
     if advDict['kaland'][Jatekos.lokacio]['akcio'] == "gyozelem":
         Nyert = True
         break
@@ -190,7 +182,7 @@ while not Nyert:
         Jatekos.gameover()
         break
 
-#lépések
+    # lépések
     if "szerencseproba" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         if szerencseproba():
             Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['HaVan'])
