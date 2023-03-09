@@ -1,18 +1,17 @@
 {
   "kaland": {
-
     "0": {
-      "szoveg": "Az Oszria-öböltől délre, nagyjából nyolcvan kilóméterre terük el a Koponyák Sivataga. Forró veszedelmes és mindnent egybevetve igen kellemetlen hely, ám te kéyntelen vagy átkelni rajta, hisz déli felén terül és a frágakőbányáiról messze földön híres és gazdag Zafírváros. Vonz a hatalmas vagyon, mely minden harcos számára elérhető, aki hajlandó akár a köveket, akár a pénzt kísérni egyik településből a másikba. A munka azonban nem veszélytelen. Ahogy a sivatag felé közeledsz segélykiáltásokat hallasz az utat szegélyző bozótos túloldaláról. Mikkor közelebb lépsz, még épp látod, ahogy egy ocsmány Goblin tőrt márt egy igen fontosnak látszó Elf férfi szívébe, aki azonnal a földre roskad.\n\tEgyből előre rontasz, hogy elkapd a gyilkost, ám pechedre megbotlasz, az aljas teremtmény pedig észrevesz téged, és eltűnik az aljnövényzetben.\n\tCsak állsz, és a halott Elf tetemét bámulod. Amennyire meg tudod állapítani, az egyik helyi törzs vezetője lehetett. Kezében egy nagy, kék színű gyémántot szorongat. Hirtelen megrezzennek körülötted a bokrok! Arra gondolsz, talán a Goblin tért vissza, így előhúzod kardodat. Legnagyobb meglepetésedre azonban húsz vagy harminc Elf gyűrűjében találod magadat, akik megfeszített íjakkal vesznek körbe. Egyikük előre lép, és komoran megszólít.\n\t-Ember!-kezdi- Karddal a kezedben, apám, a Törzsfőnökünk meggyilkolt testével a lábad előtt találtunk rád.\n\tRájössz, hogy ezek azt hiszik, te vagy a gyilkos. Tiltakozni próbálnál, azonban az Elf egy intésére elhallgatsz. - Az Ítélet Labirintusához viszünk - fejezi be mondanivalóját. Hátat fordít neked, és elsétál, te pedig kísérőid körében kénytelen vagy követni. Miközben az őrök egymást közt vitatják meg a látottakat, megtudod, hogy a labirintus egy titkos hely, ahol a bűnösöket teszik próbára. Minden \"próba\" előtt egy kis Aranyszobrot rejtenek el annak mélyén,  próba alanyának pedig meg kell tanulnia azt. Ha ez nem sikerül, bűnösnek ítélik, ám ha rélel, és sikerül kijutnia odabentről, ártatlannak találják, és szabadon engedik.\n\tA fák ritkulni kezdenek, a menet pedig egy hatalmas fa törzsénél megtorpan. A Főnök fia motyog pár szót, mire a kéreg egy része kinyílik, mögötte pedig feltűnik a labirintus bejárata...",
+      "szoveg": "Az Oszria-öböltől délre, nagyjából nyolcvan kilóméterre terük el a Koponyák Sivataga. Forró veszedelmes és mindnent egybevetve igen kellemetlen hely, ám te kéyntelen vagy átkelni rajta, hisz déli felén terül és a frágakőbányáiról messze földön híres és gazdag Zafírváros. Vonz a hatalmas vagyon, mely minden harcos számára elérhető, aki hajlandó akár a köveket, akár a pénzt kísérni egyik településből a másikba. A munka azonban nem veszélytelen. \n Ahogy a sivatag felé közeledsz segélykiáltásokat hallasz az utat szegélyző bozótos túloldaláról. Mikkor közelebb lépsz, még épp látod, ahogy egy ocsmány Goblin tőrt márt egy igen fontosnak látszó Elf férfi szívébe, aki azonnal a földre roskad. Egyből előre rontasz, hogy elkapd a gyilkost, ám pechedre megbotlasz, az aljas teremtmény pedig észrevesz téged, és eltűnik az aljnövényzetben. Csak állsz, és a halott Elf tetemét bámulod.\n Amennyire meg tudod állapítani, az egyik helyi törzs vezetője lehetett. Kezében egy nagy, kék színű gyémántot szorongat. Hirtelen megrezzennek körülötted a bokrok! Arra gondolsz, talán a Goblin tért vissza, így előhúzod kardodat. Legnagyobb meglepetésedre azonban húsz vagy harminc Elf gyűrűjében találod magadat, akik megfeszített íjakkal vesznek körbe. Egyikük előre lép, és komoran megszólít. -Ember!-kezdi- Karddal a kezedben, apám, a Törzsfőnökünk meggyilkolt testével a lábad előtt találtunk rád. Rájössz, hogy ezek azt hiszik, te vagy a gyilkos. Tiltakozni próbálnál, azonban az Elf egy intésére elhallgatsz. Az Ítélet Labirintusához viszünk fejezi be mondanivalóját.\n Hátat fordít neked, és elsétál, te pedig kísérőid körében kénytelen vagy követni. Miközben az őrök egymást közt vitatják meg a látottakat, megtudod, hogy a labirintus egy titkos hely, ahol a bűnösöket teszik próbára. Minden próba előtt egy kis Aranyszobrot rejtenek el annak mélyén,  próba alanyának pedig meg kell tanulnia azt. Ha ez nem sikerül, bűnösnek ítélik, ám ha rélel, és sikerül kijutnia odabentről, ártatlannak találják, és szabadon engedik. A fák ritkulni kezdenek, a menet pedig egy hatalmas fa törzsénél megtorpan. A Főnök fia motyog pár szót, mire a kéreg egy része kinyílik, mögötte pedig feltűnik a labirintus bejárata...",
       "akcio": ["tortenetkezdes"],
       "ugras": [1]
     },
      "1": {
-       "szoveg": "Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyíláson át beszűrődő természetes világosságot. Innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észek felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz abba az irányba. Lapozz a 41-re",
+       "szoveg": "Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyíláson át beszűrődő természetes világosságot. Innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észek felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz abba az irányba. Lapozz a [41]-re",
         "akcio": {},
         "ugras": [41]
      },
     "2": {
-      "szoveg": "Avízbe ugrasz, az áramlat azonban nagyon erős. Megpróbálsz a felszínen maradni. de ez nem könnyű. Lapozz a 148-ra",
+      "szoveg": "Avízbe ugrasz, az áramlat azonban nagyon erős. Megpróbálsz a felszínen maradni. de ez nem könnyű. Lapozz a [148]-ra",
       "akcio": [],
       "ugras": [141]
     },
@@ -27,7 +26,7 @@
       "ugras": []
     },
     "5": {
-      "szoveg": " Az ajtó egy tágas terembe nyílik, melynek északi oldalán egy újabb kijárat van, egy lelógó kötél szomszédságában. Csapdának nem látod jelét, így áthaladsz a szobán és leveszed a kötelet. Lenyomod a kilincset, de így sem sikerül előrébb jutnod -alighanem zárva van. Ha van nálad egy Aranykulcs lapozz a 110-re. Hogyha nincs, úgy távozol a szobából és folytatod az utadat északi irányba -lapozz a 14-re",
+      "szoveg": " Az ajtó egy tágas terembe nyílik, melynek északi oldalán egy újabb kijárat van, egy lelógó kötél szomszédságában. Csapdának nem látod jelét, így áthaladsz a szobán és leveszed a kötelet. Lenyomod a kilincset, de így sem sikerül előrébb jutnod alighanem zárva van. Ha van nálad egy Aranykulcs lapozz a [110]-re. Hogyha nincs, úgy távozol a szobából és folytatod az utadat északi irányba lapozz a [14]-re",
       "akcio": ["targy"],
       "TargyInfo": {
         "szukseges": "Aranykulcs",
@@ -36,37 +35,37 @@
       "ugras": [114]
     },
     "6": {
-      "szoveg": "Az ajtó egy nyugat felé haladó alagútba nyílik. Követed. míg egy elégazáshoz nem érsz. Ha észak felé akarsz fordulni, lapozz a 172-re. Ha nem akarsz letérni ebből a járatból, lapozz a 168-ra.",
+      "szoveg": "Az ajtó egy nyugat felé haladó alagútba nyílik. Követed. míg egy elégazáshoz nem érsz. Ha észak felé akarsz fordulni, lapozz a [172]-re. Ha nem akarsz letérni ebből a járatból, lapozz a [168]-ra.",
       "akcio": [],
       "ugras": [168, 172]
     },
     "7": {
-      "szoveg": "Mikor végül eléred a verem alját, semmit nem látsz. A falakat végigtapogatva annyit meg tudsz állapítani, hogy az alagút kelet felé megy tovább. Ha a vaksötét ellenére is bevállalod ez6t a járatot, lapozz a 165-re. Ha inkább visszatérnél a fenti folyosóra és északnak folytatnád az utad lapozz a 96-ra",
+      "szoveg": "Mikor végül eléred a verem alját, semmit nem látsz. A falakat végigtapogatva annyit meg tudsz állapítani, hogy az alagút kelet felé megy tovább. Ha a vaksötét ellenére is bevállalod ez6t a járatot, lapozz a [165]-re. Ha inkább visszatérnél a fenti folyosóra és északnak folytatnád az utad lapozz a 96-ra",
       "akcio": [],
       "ugras": [165, 96]
     },
     "8": {
-      "szoveg": "A dárdák, melyeket egy igen hatásos méreggel kentek be, mélyen a lábadba fúródnak. Dobj egy kockával, hogy megtudd hány életerő pontot vesztettél. Lapozz a 65-re",
+      "szoveg": "A dárdák, melyeket egy igen hatásos méreggel kentek be, mélyen a lábadba fúródnak. Dobj egy kockával, hogy megtudd hány életerő pontot vesztettél. Lapozz a [65]-re",
       "akcio": ["hplossrng"],
       "ugras": [65]
     },
     "9": {
-      "szoveg": "Elsietsz a halott fenevad teteme mellett és gyorsan az északi járathoz lépsz. Lapozz az 52-re",
+      "szoveg": "Elsietsz a halott fenevad teteme mellett és gyorsan az északi járathoz lépsz. Lapozz az [52]-re",
       "akcio": [],
       "ugras": [52]
     },
     "10": {
-      "szoveg": "Az ajtó recsegve nyílik ki és fed fel egy helyiséget, mely alig szélesebb a folyosónál. Hosszában két részre van osztva. Az egyik oldalon egy cellát látsz, míg a másik egyenesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredten néz téged és fenyegető mozdulatokat tesz irányodba. Gyanítod hogy szabadságáért cserébe esetleg hasznos információkkal tudna szolgálni számodra. Ha beszélni akarsz vele, lapozz a 149-re. Ha jobban éreznéd magad, ha holtan tudhatnád magam mögött, ezért a cella rácsai közt átnyúlva kardélre hánynád, lapozz a 24-re.",
+      "szoveg": "Az ajtó recsegve nyílik ki és fed fel egy helyiséget, mely alig szélesebb a folyosónál. Hosszában két részre van osztva. Az egyik oldalon egy cellát látsz, míg a másik egyenesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredten néz téged és fenyegető mozdulatokat tesz irányodba. Gyanítod hogy szabadságáért cserébe esetleg hasznos információkkal tudna szolgálni számodra. Ha beszélni akarsz vele, lapozz a [149]-re. Ha jobban éreznéd magad, ha holtan tudhatnád magam mögött, ezért a cella rácsai közt átnyúlva kardélre hánynád, lapozz a [24]-re.",
       "akcio": [],
       "ugras": [24, 149]
     },
     "11": {
-      "szoveg": "Elérsz az alagút végére, de semmi feltűnőt nem látsz. Ha tovább akarsz keresgélni, lapozz a 38-ra. Ha inkább visszatérnél az előző elégazáshoz és ott keletre indulnál lapozz a 31-re",
+      "szoveg": "Elérsz az alagút végére, de semmi feltűnőt nem látsz. Ha tovább akarsz keresgélni, lapozz a [38]-ra. Ha inkább visszatérnél az előző elégazáshoz és ott keletre indulnál lapozz a [31]-re",
       "akcio": [],
       "ugras": [31, 38]
     },
     "12": {
-      "szoveg": "A válladra csapod a köpenyt, de legnagyobb meglepetésedre semmi nem történik. Mivel egy kicsit azért hűvös van, nem dobod le. Bár nem tudod, de ez a Lebegés Köpenye. Ha fel akarod próbálni a gyűrűt, és még nem tetted meg lapozz a 119-re. Amennyiben a folyadék még az üvegben van, és most felhajtanád, lapozz a 71-re. Ha bezárnád a csapóajtót és az ajtón kilépve észak felé távoznál, lapozz a 80-ra",
+      "szoveg": "A válladra csapod a köpenyt, de legnagyobb meglepetésedre semmi nem történik. Mivel egy kicsit azért hűvös van, nem dobod le. Bár nem tudod, de ez a Lebegés Köpenye. Ha fel akarod próbálni a gyűrűt, és még nem tetted meg lapozz a [119]-re. Amennyiben a folyadék még az üvegben van, és most felhajtanád, lapozz a 71-re. Ha bezárnád a csapóajtót és az ajtón kilépve észak felé távoznál, lapozz a 80-ra",
       "akcio": ["pluszlebeges", "gyuruproba"],
       "ugras": [71, 80]
     },
@@ -827,7 +826,7 @@
       }
     },
     "141": {
-      "szoveg": "A járat hamarosan egy ajtóban ér véget. Ha ki szeretnéd nyitni és belépnél rajta, lapozz a 107-re. Ha nem akarod tudni, mi vár rád odabenn és inkább visszamennél az elágazáshoz, hogy kelet felé folytasd az utad, lapozz a 122-re.",
+      "szoveg": "A járat hamarosan egy ajtóban ér véget. Ha ki szeretnéd nyitni és belépnél rajta, lapozz a [107]-re. Ha nem akarod tudni, mi vár rád odabenn és inkább visszamennél az elágazáshoz, hogy kelet felé folytasd az utad, lapozz a 122-re.",
       "akcio": [],
       "ugras": [107,122]
     },
@@ -1163,7 +1162,7 @@
       "ugras": [46]
     },
     "195": {
-      "szoveg": "A járatot egy hatalmas tölgyfa ajtó zárja el, melyen gyönyörűen megmunkált csukló- pántok és egy hatalmas, sodort fémkilincs van. Két oldalán fáklyák égnek, melyek táncoló fénybe borítják az alagút ezen ré- szét. Egy pergamenlapot látsz az ajtóra szögezve, amin több nyelven is egy szöveg olvasható. Gyorsan keresel egy olyat, amit te is megértesz. A szöveg a következő: Ha idáig eljutottál igen bátor lehetsz. Bátorságod most vagy életet hoz rád, vagy halált. Kopogj és lépj be\nBekopogsz az ajtón, és elfordítod a kilincset.",
+      "szoveg": "A járatot egy hatalmas tölgyfa ajtó zárja el, melyen gyönyörűen megmunkált csukló- pántok és egy hatalmas, sodort fémkilincs van. Két oldalán fáklyák égnek, melyek táncoló fénybe borítják az alagút ezen ré- szét. Egy pergamenlapot látsz az ajtóra szögezve, amin több nyelven is egy szöveg olvasható. Gyorsan keresel egy olyat, amit te is megértesz. A szöveg a következő: Ha idáig eljutottál igen bátor lehetsz. Bátorságod most vagy életet hoz rád, vagy halált. Kopogj és lépj be Bekopogsz az ajtón, és elfordítod a kilincset.",
       "akcio": [],
       "ugras": [39]
     },
@@ -1197,3 +1196,4 @@
     }
   }
 }
+
