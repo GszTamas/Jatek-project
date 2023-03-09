@@ -283,13 +283,14 @@ while not Nyert:
     if not LepettEMar:
         if len(advDict['kaland'][Jatekos.lokacio]['ugras']) == 1:
             StartInp = input("Folytatáshoz nyomjon entert vagy írjon be egy commandot [statok, kilepes, fogyasztas]: ")
-            if StartInp == "statok":
-                print(Jatekos)
-                print("")
-            elif StartInp == "kilepes":
-                exit()
-            elif StartInp == "fogyasztas":
-                fogyasztas()
+            if not inp == "":
+                if StartInp == "statok":
+                    print(Jatekos)
+                    print("")
+                elif StartInp == "kilepes":
+                    exit()
+                elif StartInp == "fogyasztas":
+                    fogyasztas()
             Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][0])
         elif len(advDict['kaland'][Jatekos.lokacio]['ugras']) > 1:
             print("Irja be merre szeretne haladni vagy irjon be egy commandot [statok, kilepes, fogyasztas]?")
