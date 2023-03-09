@@ -54,55 +54,84 @@ def harc(csatamod, name, hp, skill):
 
         if EllensegAttackSTR < JatekosAttackSTR:
             hp = hp - 2
-            print("Megsebezted az ellenfelet!")
+            print("Megsebezted az ellenfelet!\n")
             if Jatekos.HP < 1:
-                print("Nem nyertél!")
+                print("Nem nyertél!\n")
                 Jatekos.gameover()
                 return False
             elif hp < 1:
-                print("Myertél!")
+                print("Megnyerted a csatát!\n")
                 return True
-            print("Akarsz Szerencsét próbálni?")
+            print("Akarsz Szerencsét próbálni?\n")
             if not igenvagynem():
-                print("Nem probáltál szerencsét!")
+                print("Nem probáltál szerencsét!\n")
             else:
                 if szerencseproba():
-                    print("Súlyos sebzést ejtettél!")
+                    print("Súlyos sebzést ejtettél!\n")
                     hp = hp - 2
                 else:
-                    print("A seb puszta karcolás!")
+                    print("A seb puszta karcolás!\n")
                     hp = hp + 1
         elif EllensegAttackSTR > JatekosAttackSTR:
             Jatekos.jatekosSebzes(2)
-            print("Az ellenfél megsebzett téged!")
+            print("Az ellenfél megsebzett téged!\n")
             if Jatekos.HP < 1:
                 print("Nem nyertél!")
                 Jatekos.gameover()
                 return False
             elif hp < 1:
-                print("Nyertél!")
+                print("Megnyerted a csatát!")
                 return True
             print("Akarsz Szerencsét próbálni?")
             if not igenvagynem():
-                print("Nem probáltál szerencsét!")
+                print("Nem probáltál szerencsét!\n")
             else:
                 if not szerencseproba():
-                    print("Súlyos sebzést Kaptál!")
+                    print("Súlyos sebzést Kaptál!\n")
                     Jatekos.jatekosSebzes(2)
                 else:
-                    print("A seb puszta karcolás!")
+                    print("A seb puszta karcolás!\n")
                     Jatekos.jatekosHeal(1)
         else:
             print("Kivédtétek egymás ütését!")
         print(f"{name} Életereje: {hp}")
         print(f"Játékos Életereje: {Jatekos.HP} \n")
 
+def fogyasztas():
+    if not len(Jatekos.Potions) + len(Jatekos.Food) == 0:
+        print(f'Italaid: {Jatekos.Potions}')
+        print(f'Ételeid: {Jatekos.Food}')
+        print("Válaszd ki mit szeretnél elfogyasztani azzal hogy beirod a nevüket vagy lépj ki az [vissza]-val!\n")
+        while True:
+            inp = input()
+            if not inp == "":
+                if inp.lower() == "ügyesség itala" and "Ügyesség Itala" in Jatekos.Potions :
+                    Jatekos.ugyessegitala()
+                    print("Megittad az Ügyesség Italát!\n")
+                    break
+                elif inp.lower() == "életerő itala" and "Életerő Itala" in Jatekos.Potions:
+                    Jatekos.hpital()
+                    print("Megittad az Életerő Italát!\n")
+                    break
+                elif inp.lower() == "szerencse itala" and "Szerencse Itala" in Jatekos.Potions:
+                    Jatekos.SzerencseItala()
+                    print("Megittad az Szerencse Italát!\n")
+                    break
+                elif inp.lower() == "vissza":
+                    break
+                else:
+                    print("Hibás bemenet!\n")
+            else:
+                print("Hibás bemenet!\n")
+    else:
+        print("Nincs fogyasztható itemed!\n")
+
 
 Nyert = False
 probaltemar = False
 fellvettekopenyt = False
 csatamod = 0
-input("új játék inditásához gépeljen be bármit és nyomjon entert: ")
+input("új játék inditásához gépeljen be bármit és nyomjon entert: "+"\n")
 
 Jatekos = Jatekos(duplakockadobas() + 12, kockadobas() + 6, kockadobas() + 6, 20)  # HP Luck Skill Gold
 
@@ -138,6 +167,22 @@ while not Nyert:
         Jatekos.SzerencseElixirf()
     if "tortenetkezdes" in advDict['kaland'][Jatekos.lokacio]['akcio']:
         Jatekos.tortenetkezdes()
+        print("Válassz az egyik ital közül:")
+        print("Ügyesség Itala [1]")
+        print("Életerő Itala [2]")
+        print("Szerencse Itala [3]")
+        while True:
+            inp = input()
+            if inp == "1":
+                Jatekos.pluszital("Ügyesség Itala")
+                break
+            elif inp == "2":
+                Jatekos.pluszital("Életerő Itala")
+                break
+            elif inp == "3":
+                Jatekos.pluszital("Szerencse Itala")
+                break
+
 
     # tárgy felvételek
     if "pluszlebeges" in advDict['kaland'][Jatekos.lokacio]['akcio']:
@@ -237,15 +282,17 @@ while not Nyert:
             LepettEMar = True
     if not LepettEMar:
         if len(advDict['kaland'][Jatekos.lokacio]['ugras']) == 1:
-            StartInp = input("Folytatáshoz nyomjon entert vagy írjon be egy commandot [statok, kilepes]: ")
+            StartInp = input("Folytatáshoz nyomjon entert vagy írjon be egy commandot [statok, kilepes, fogyasztas]: ")
             if StartInp == "statok":
                 print(Jatekos)
                 print("")
             elif StartInp == "kilepes":
                 exit()
+            elif StartInp == "fogyasztas":
+                fogyasztas()
             Jatekos.lokaciovaltoztatas(advDict['kaland'][Jatekos.lokacio]['ugras'][0])
         elif len(advDict['kaland'][Jatekos.lokacio]['ugras']) > 1:
-            print("Irja be merre szeretne haladni vagy irjon be egy commandot [statok, kilepes]?")
+            print("Irja be merre szeretne haladni vagy irjon be egy commandot [statok, kilepes, fogyasztas]?")
             while True:
                 inp = input()
                 if not inp == "":
@@ -257,6 +304,8 @@ while not Nyert:
                         print("")
                     elif inp == "kilepes":
                         exit()
+                    elif StartInp == "fogyasztas":
+                        fogyasztas()
                     else:
                         print("hibás input")
                 else:
