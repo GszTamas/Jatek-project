@@ -92,16 +92,16 @@ class Jatekos:
 
     def ugyessegitala(self):
         self.Skill = self.kezdetiSkill
-	self.Potions.clear()
+        self.Potions.clear()
 
     def hpital(self):
         self.HP = self.kezdetiHP
-	self.Potions.clear()
+        self.Potions.clear()
 
     def SzerencseItala(self):
         self.Luck = self.kezdetiLuck
         self.kezdetiLuck = self.kezdetiLuck + 1
-	self.Potions.clear()
+        self.Potions.clear()
 
     def __repr__(self):
         return f'Életerőd: {self.HP}\nSzerencséd: {self.Luck}\nÜgyeséged: {self.Skill}\nHelyzeted: {self.lokacio}\nPénzed: {self.Gold}\nTárgyaid: {self.Items}\nKristályaid: {self.Crystals}\nItalaid: {self.Potions}\nÉteleid: {self.Food}'
